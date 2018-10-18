@@ -1,12 +1,11 @@
 package com.devonjp;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ParametersController {
 
     private static final String INCORRECT_DATA = "Ошибка! Неверный ввод данных.";
-    private static final String HELP = "java -jar lw01.jar <filePath <number of words>";
+    private static final String HELP = "java -jar task1.jar <IP address> <Subnet mask>";
 
     private String[] args;
 
@@ -25,18 +24,26 @@ public class ParametersController {
         }
     }
 
-    public String getFilePath() {
-        return this.args[0];
+    public ArrayList<Byte> getIpAddress() {
+        String ipAddress = this.args[0];
+        return this.getByteArray(ipAddress);
     }
 
-    public Integer getWordsCount() {
-        try {
-            String wordsCountStr = this.args[1];
-            return Integer.parseInt(wordsCountStr);
-        } catch (NumberFormatException e){
-            this.printErrorInfo();
+    public ArrayList<Byte> getSubnetMask() {
+        String subnetMask = this.args[1];
+        return this.getByteArray(subnetMask);
+    }
+
+    private ArrayList<Byte> getByteArray(String str) {
+        String[] numbers = str.split("[.]");
+        ArrayList<Byte> result = new ArrayList<>();
+        for (int i = 0; i < numbers.length; ++i) {
+            String subStr = numbers[i];
+            int number = Integer.parseInt(subStr);
+            byte byteNumber = (byte) number;
+            result.add(byteNumber);
         }
-        return -1;
+        return result;
     }
 
     private void printErrorInfo() {
