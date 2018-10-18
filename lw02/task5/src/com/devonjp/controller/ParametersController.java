@@ -1,12 +1,9 @@
 package com.devonjp.controller;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ParametersController {
 
     private static final String INCORRECT_DATA = "Ошибка! Неверный ввод данных.";
-    private static final String HELP = "java -jar lw01.jar <filePath <number of words>";
+    private static final String HELP = "java -jar task5.jar <filePath> <number of words>";
 
     private String[] args;
 
