@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParametersController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+      <file leaf-file-name="ParametersController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordRating.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordRating.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/devonjp/WordRating.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="1309">
               <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,8 +78,8 @@
         <option value="$PROJECT_DIR$/src/com/qualitycontrol/Main.java" />
         <option value="$PROJECT_DIR$/src/com/qualitycontrol/ParametersController.java" />
         <option value="$PROJECT_DIR$/src/com/devonjp/ParametersController.java" />
-        <option value="$PROJECT_DIR$/src/com/devonjp/Main.java" />
         <option value="$PROJECT_DIR$/src/com/devonjp/WordRating.java" />
+        <option value="$PROJECT_DIR$/src/com/devonjp/Main.java" />
       </list>
     </option>
   </component>
@@ -113,6 +113,17 @@
               <item name="task5" type="b2602c69:ProjectViewProjectNode" />
               <item name="task5" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="task5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="devonjp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -144,7 +155,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.devonjp.Main" />
       <module name="task5" />
-      <option name="PROGRAM_PARAMETERS" value="D:\DevOnJP\lw02\task5\words.txt 3" />
+      <option name="PROGRAM_PARAMETERS" value="D:\DevOnJP\lw02\task5\words.txt 55" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -173,16 +184,15 @@
       <workItem from="1538568620594" duration="7000" />
       <workItem from="1539787652918" duration="360000" />
       <workItem from="1539856417823" duration="7484000" />
-      <workItem from="1539882210294" duration="4527000" />
+      <workItem from="1539882210294" duration="4936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34440000" />
+    <option name="totallyTimeSpent" value="34849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -198,7 +208,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="SonarQube" order="7" />
@@ -206,7 +216,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36430833" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36430833" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -236,7 +246,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -271,7 +281,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
@@ -296,7 +306,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devonjp/TriangleTypeSelector.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
@@ -321,7 +331,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devonjp/TriangleTypeSelector.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
@@ -346,7 +356,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devonjp/TriangleTypeSelector.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
@@ -364,7 +374,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devonjp/TriangleTypeSelector.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="79" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="79" />
@@ -382,7 +392,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/devonjp/TriangleTypeSelector.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
@@ -400,7 +410,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
@@ -456,12 +466,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/ParametersController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/WordRating.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="1309">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2162#2179#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -473,13 +484,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/devonjp/WordRating.java">
+    <entry file="file://$PROJECT_DIR$/src/com/devonjp/controller/ParametersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2162#2179#0" expanded="true" />
           </folding>
         </state>
       </provider>

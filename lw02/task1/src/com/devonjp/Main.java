@@ -1,7 +1,6 @@
 package com.devonjp;
 
-import com.devonjp.controller.ParametersController;
-import com.devonjp.service.WordRating;
+import java.util.List;
 
 public class Main {
 
