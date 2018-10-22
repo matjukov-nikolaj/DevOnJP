@@ -3,7 +3,7 @@ package com.devonjp;
 public class ParametersController{
 
     private static final String INCORRECT_DATA = "Ошибка! Неверный ввод данных.";
-    private static final String HELP = "java -jar task2.jar <mode> <key> <word>";
+    private static final String HELP = "java -jar task2.jar <mode -d or -e> <key> <string which contains letters and spaces>";
 
     private String[] args;
 
@@ -13,12 +13,8 @@ public class ParametersController{
     }
 
     private void checkTheNumberOfParameters() {
-        try {
-            if (this.args.length != 3) {
-                throw new IllegalArgumentException();
-            }
-        } catch (IllegalArgumentException argumentEx) {
-            this.printErrorInfo();
+        if (this.args.length != 3) {
+            throw new IllegalArgumentException(INCORRECT_DATA + "\n" + HELP);
         }
     }
 
@@ -27,19 +23,19 @@ public class ParametersController{
         if (mode.equals("-e") || mode.equals("-d")) {
             return mode;
         }
-        throw new IllegalArgumentException(INCORRECT_DATA);
+        throw new IllegalArgumentException(INCORRECT_DATA + "\n" + HELP);
     }
 
     public Integer getKey() throws NumberFormatException  {
         return Integer.parseInt(this.args[1]);
     }
 
-    public String getWord() {
-        return this.args[2];
+    public String getLine() throws IllegalArgumentException {
+        String line = this.args[2];
+        if (line.matches("^[ a-zA-Z]*$") && !line.isEmpty()) {
+            return line;
+        }
+        throw new IllegalArgumentException(INCORRECT_DATA + "\n" + HELP);
     }
 
-    private void printErrorInfo() {
-        System.out.println(INCORRECT_DATA);
-        System.out.println(HELP);
-    }
 }

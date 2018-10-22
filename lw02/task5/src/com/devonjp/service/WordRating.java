@@ -2,12 +2,13 @@ package com.devonjp.service;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 public class WordRating {
 
-    private Map<String, Integer> words = new LinkedHashMap<>();
+    private TreeMap<String, Integer> words = new TreeMap<>();
+    private ArrayList<TreeSet<String>> occurrences = new ArrayList<>();
+
     private Integer wordsCount;
     private String filePath;
 
@@ -16,23 +17,16 @@ public class WordRating {
         this.filePath = filePath;
     }
 
-    public void calculateTheNumberOfWords() {
-        try {
-            File file = new File(this.filePath);
-            this.handleFileReading(file);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+    public void calculateTheNumberOfWords() throws IOException {
+        File file = new File(this.filePath);
+        this.handleFileReading(file);
     }
 
-    private void handleFileReading(File file)
-            throws IOException {
-        try (InputStream in = new FileInputStream(file);
-             Reader reader = new InputStreamReader(in, StandardCharsets.UTF_8);
-             // buffer for efficiency
-             Reader buffer = new BufferedReader(reader)) {
-            handleCharactersReading(buffer);
-        }
+    private void handleFileReading(File file) throws IOException {
+        InputStream in = new FileInputStream(file);
+        Reader reader = new InputStreamReader(in, StandardCharsets.UTF_8);
+        Reader buffer = new BufferedReader(reader);
+        handleCharactersReading(buffer);
     }
 
     private void handleCharactersReading(Reader reader)
@@ -56,33 +50,44 @@ public class WordRating {
         if (word.isEmpty()) {
             return;
         }
-        if (this.words.containsKey(word)) {
-            this.words.put(word, words.get(word) + 1);
-        } else {
-            this.words.put(word, 1);
+        Integer prevOccurrences = 0;
+        Integer currOccurrences = 1;
+        if (words.containsKey(word)) {
+            prevOccurrences = words.get(word);
+            currOccurrences = prevOccurrences + 1;
         }
+        words.put(word, currOccurrences);
+        this.addWordToList(prevOccurrences, currOccurrences, word);
+    }
+
+    private void addWordToList(Integer prevOccurrences, Integer currOccurrences, String word) {
+        if (prevOccurrences != 0) {
+            occurrences.get(prevOccurrences - 1).remove(word);
+        }
+        if (occurrences.size() < currOccurrences) {
+            occurrences.add(new TreeSet<String>());
+        }
+        occurrences.get(currOccurrences - 1).add(word);
     }
 
     public void printWords() {
-        this.words = this.getSortedMap(this.words);
+        ListIterator<TreeSet<String>> listIterator = occurrences.listIterator(occurrences.size());
         Integer counter = 0;
-        for (Map.Entry<String, Integer> entry : this.words.entrySet()) {
-            String key = entry.getKey();
-            Integer value = entry.getValue();
-            if (counter.equals(this.wordsCount)) {
+        while (!counter.equals(this.wordsCount)) {
+            TreeSet<String> wordsSet = listIterator.previous();
+            if (wordsSet.isEmpty()) {
+                continue;
+            }
+            for (String word: wordsSet) {
+                System.out.println(word + " " + this.words.get(word));
+                counter++;
+                if (counter.equals(this.wordsCount)) {
+                    break;
+                }
+            }
+            if (counter >= this.words.size()) {
                 break;
             }
-            System.out.println(key + " " + value);
-            counter++;
         }
     }
-
-    private Map<String, Integer> getSortedMap(Map<String, Integer> map) {
-        Map<String, Integer> result = new LinkedHashMap<>();
-        map.entrySet().stream()
-                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
-                .forEachOrdered(e -> result.put(e.getKey(), e.getValue()));
-        return result;
-    }
-
 }

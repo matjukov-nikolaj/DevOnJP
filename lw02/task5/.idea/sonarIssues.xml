@@ -28,6 +28,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../task2/src/com/devonjp/CaesarСipher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task2/src/com/devonjp/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task2/src/com/devonjp/ParametersController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task3/src/com/devonjp/ParametersController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task4/src/com/devonjp/Lol.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task4/src/com/devonjp/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
           <value>
             <set />
@@ -58,6 +88,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/com/devonjp/model/WordInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/com/devonjp/service/WordRating.java">
           <value>
             <set />
@@ -84,6 +119,106 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/com/qualitycontrol/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/words.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task1/src/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task1/test/MainTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task2/src/CaesarCipher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task2/src/CaesarСipher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task2/src/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task2/src/controllers/ParametersController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task2/test/MainTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task3/src/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task3/src/controllers/ParametersController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task3/test/MainTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/src/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/src/WordRaiting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/src/WordRating.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/src/controllers/ParametersController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/test/MainTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/test/test1.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/test/test2.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/test/test3.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/Java Course/lesson1/task5/test/words.txt">
           <value>
             <set />
           </value>

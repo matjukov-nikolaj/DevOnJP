@@ -7,18 +7,14 @@ public class ParametersController {
 
     private String[] args;
 
-    public ParametersController(String[] args){
+    public ParametersController(String[] args) {
         this.args = args;
         checkTheNumberOfParameters();
     }
 
-    private void checkTheNumberOfParameters() {
-        try {
-            if (this.args.length != 2) {
-                throw new IllegalArgumentException();
-            }
-        } catch (IllegalArgumentException argumentEx) {
-            this.printErrorInfo();
+    private void checkTheNumberOfParameters() throws IllegalArgumentException {
+        if (this.args.length != 2) {
+            throw new IllegalArgumentException(INCORRECT_DATA);
         }
     }
 
@@ -26,18 +22,8 @@ public class ParametersController {
         return this.args[0];
     }
 
-    public Integer getWordsCount() {
-        try {
-            String wordsCountStr = this.args[1];
-            return Integer.parseInt(wordsCountStr);
-        } catch (NumberFormatException e){
-            this.printErrorInfo();
-        }
-        return -1;
-    }
-
-    private void printErrorInfo() {
-        System.out.println(INCORRECT_DATA);
-        System.out.println(HELP);
+    public Integer getWordsCount() throws NumberFormatException {
+        String wordsCountStr = this.args[1];
+        return Integer.parseInt(wordsCountStr);
     }
 }

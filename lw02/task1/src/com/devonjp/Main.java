@@ -5,6 +5,9 @@ import java.util.ArrayList;
 
 public class Main {
 
+    private static final String INCORRECT_DATA = "Ошибка! Неверный ввод данных.";
+    private static final String HELP = "java -jar task1.jar <IP address> <Subnet mask>";
+
     public static void main(String[] args) {
         try {
             ParametersController parametersController = new ParametersController(args);
@@ -12,7 +15,8 @@ public class Main {
             ArrayList<Byte> subnetMask = parametersController.getSubnetMask();
             printAddress(getNetAddress(ipAddress, subnetMask));
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println(INCORRECT_DATA);
+            System.out.println(HELP);
         }
     }
 
