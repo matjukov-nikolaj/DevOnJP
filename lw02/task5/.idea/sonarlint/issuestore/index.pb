@@ -7,3 +7,7 @@ d
 4src/com/devonjp/controller/ParametersController.java,6\c\6c2d9d0c670a7e915bd34d1e2eb7d86592d0c698
 W
 'src/com/devonjp/service/WordRating.java,f\b\fb482b279dd28a79706993d7e6b465ceff1665b7
+S
+#src/com/devonjp/model/WordInfo.java,c\f\cf04c17995dc9e1316970f32166c97fa351e70fb
+9
+	words.txt,b\5\b50c83fae7efacc180a53aea3fdd96a39dc2cfe2
