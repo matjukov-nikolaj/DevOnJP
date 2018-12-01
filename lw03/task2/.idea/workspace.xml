@@ -57,32 +57,14 @@
     <favorites_list name="MyFirstWebProject" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4373385">
+    <splitter split-orientation="horizontal" split-proportion="0.5516796">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
+          <file leaf-file-name="SpreadsheetControllerImpl.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SpreadsheetTests.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SpreadsheetTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="42" selection-start-line="42" selection-end-line="42" />
+                <state relative-caret-position="240">
+                  <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -90,44 +72,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
+          <file leaf-file-name="Cell.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Cell.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="450">
+                  <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Operands.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operands.java">
+          <file leaf-file-name="Command.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Command.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sonar-project.properties" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sonar-project.properties">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SpreadsheetEngineTests.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="68">
+                  <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -136,29 +94,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="FormulaCalculatorImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java">
+          <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/utils/Constants.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SpreadsheetControllerImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Spreadsheet.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Spreadsheet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="257">
-                  <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="74" />
                 </state>
               </provider>
             </entry>
@@ -199,16 +139,17 @@
         <option value="$PROJECT_DIR$/.idea/.name" />
         <option value="$PROJECT_DIR$/src/main/java/lw03/model/Operation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/model/Operation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/SpreadsheetEngine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImplTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SpreadsheetTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java" />
       </list>
     </option>
   </component>
@@ -431,14 +372,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpreadsheetTests.can_display_table">
+  <component name="RunManager" selected="JUnit.FormulaCalculatorImplTests.can_handle_division_by_zero">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.App" />
+      <module name="task2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse2018.lw03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FormulaCalculatorImplTests.if_formula_contains_incorrect_operation_throw_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormulaCalculatorImplTests.can_handle_division_by_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task2" />
       <extension name="coverage">
         <pattern>
@@ -450,30 +402,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.service" />
       <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.FormulaCalculatorImplTests" />
-      <option name="METHOD_NAME" value="if_formula_contains_incorrect_operation_throw_exception" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FormulaCalculatorImplTests.if_formula_incorrect_throw_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javacourse2018.lw03.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.FormulaCalculatorImplTests" />
-      <option name="METHOD_NAME" value="if_formula_incorrect_throw_exception" />
+      <option name="METHOD_NAME" value="can_handle_division_by_zero" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -661,19 +590,19 @@
       <Port>5050</Port>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FormulaCalculatorImplTests.if_formula_contains_incorrect_operation_throw_exception" />
-      <item itemvalue="JUnit.FormulaCalculatorImplTests.if_formula_incorrect_throw_exception" />
       <item itemvalue="JUnit.SpreadsheetTests.can_set_cell" />
       <item itemvalue="JUnit.SpreadsheetTests.throw_exception_if_trying_get_nonexisting_cell" />
       <item itemvalue="JUnit.SpreadsheetTests.can_display_table" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.FormulaCalculatorImplTests.can_handle_division_by_zero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FormulaCalculatorImplTests.can_handle_division_by_zero" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.SpreadsheetTests.can_display_table" />
         <item itemvalue="JUnit.SpreadsheetTests.throw_exception_if_trying_get_nonexisting_cell" />
         <item itemvalue="JUnit.SpreadsheetTests.can_set_cell" />
-        <item itemvalue="JUnit.FormulaCalculatorImplTests.if_formula_incorrect_throw_exception" />
-        <item itemvalue="JUnit.FormulaCalculatorImplTests.if_formula_contains_incorrect_operation_throw_exception" />
       </list>
     </recent_temporary>
   </component>
@@ -701,20 +630,11 @@
       <workItem from="1539326907378" duration="602000" />
       <workItem from="1539347450976" duration="2000" />
       <workItem from="1543620488966" duration="791000" />
-      <workItem from="1543629205864" duration="9532000" />
+      <workItem from="1543629205864" duration="12650000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpreadsheetTests_can_set_cell - 2018.12.01 at 11h 07m 05s.xml">
-      <configuration name="SpreadsheetTests.can_set_cell" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpreadsheetTests_can_set_cell - 2018.12.01 at 11h 07m 25s.xml">
-      <configuration name="SpreadsheetTests.can_set_cell" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpreadsheetTests_can_set_cell - 2018.12.01 at 11h 07m 50s.xml">
-      <configuration name="SpreadsheetTests.can_set_cell" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SpreadsheetTests_throw_exception_if_trying_get_nonexisting_cell - 2018.12.01 at 11h 09m 03s.xml">
       <configuration name="SpreadsheetTests.throw_exception_if_trying_get_nonexisting_cell" configurationId="JUnit" />
     </history-entry>
@@ -736,9 +656,18 @@
     <history-entry file="SpreadsheetTests_can_display_table - 2018.12.01 at 11h 26m 44s.xml">
       <configuration name="SpreadsheetTests.can_display_table" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpreadsheetTests_can_display_table - 2018.12.01 at 13h 38m 04s.xml">
+      <configuration name="SpreadsheetTests.can_display_table" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaCalculatorImplTests_can_handle_division_by_zero - 2018.12.01 at 13h 51m 54s.xml">
+      <configuration name="FormulaCalculatorImplTests.can_handle_division_by_zero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaCalculatorImplTests_can_handle_division_by_zero - 2018.12.01 at 13h 55m 20s.xml">
+      <configuration name="FormulaCalculatorImplTests.can_handle_division_by_zero" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64922000" />
+    <option name="totallyTimeSpent" value="68040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -756,7 +685,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30834213" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21752904" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
@@ -764,8 +693,8 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20802534" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28299895" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20802534" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28299895" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.19375" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
@@ -902,13 +831,13 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java</url>
-          <line>126</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java</url>
+          <line>76</line>
           <properties />
-          <option name="timeStamp" value="50" />
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="57" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -916,13 +845,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1015,9 +937,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/IPosition.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/IncludedCells.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/AppTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1025,34 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Cell.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/SpreadsheetEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1077,23 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="139" column="35" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImplTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1101,23 +975,6 @@
           <folding>
             <element signature="e#172#173#0" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1132,13 +989,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/IncludedCells.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1146,20 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Spreadsheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1172,8 +1012,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sonar-project.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Spreadsheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/SpreadsheetEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="181" column="13" lean-forward="true" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

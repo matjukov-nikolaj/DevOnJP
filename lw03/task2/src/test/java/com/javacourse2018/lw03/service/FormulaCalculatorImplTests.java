@@ -71,6 +71,19 @@ public class FormulaCalculatorImplTests {
         Assert.assertEquals("2.5", calculator.getCalculationResult());
     }
 
+
+    @Test(expected = IllegalArgumentException.class)
+    public void can_handle_division_by_zero() {
+        Spreadsheet spreadsheet = new Spreadsheet();
+        this.createSpreadsheet(spreadsheet);
+        FormulaCalculatorImpl calculator = new FormulaCalculatorImpl(spreadsheet);
+        calculator.calculate(" / a5 0");
+        Assert.assertEquals("", calculator.getCalculationResult());
+
+        calculator.calculate(" / - a1 a1 0");
+        Assert.assertEquals("", calculator.getCalculationResult());
+    }
+
     @Test
     public void can_concatenate_strings_in_cells() {
         Spreadsheet spreadsheet = new Spreadsheet();

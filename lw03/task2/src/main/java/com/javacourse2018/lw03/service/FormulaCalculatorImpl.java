@@ -43,7 +43,7 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
                 continue;
             }
             if (item.length() != 1) {
-                throw new IllegalArgumentException("Incorrect operation: " + item);
+                this.throwIllegalArgument("Incorrect operation: " + item);
             }
             Operation operation = Operation.createFromCharacter(item.toCharArray()[0]);
             this.expressionEvaluationManager(operation);
@@ -52,7 +52,7 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
             this.calculatonResult = this.stack.pop();
             return;
         }
-        throw new IllegalArgumentException("Incorrect formula." + formula);
+        this.throwIllegalArgument("Incorrect formula." + formula);
     }
 
     @Override
@@ -85,11 +85,14 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
 
     private void divisionHandler() throws IllegalArgumentException {
         this.handleOperands(false);
-        if ((!this.operands.getFirst().equals(this.operands.zero())
-                && !this.operands.getSecond().equals(this.operands.zero()))) {
-            stack.push(Double.toString(this.operands.getFirst() / this.operands.getSecond()));
+        if (!this.operands.getFirst().equals(this.operands.zero())) {
+            if (!this.operands.getSecond().equals(this.operands.zero())) {
+                stack.push(Double.toString(this.operands.getFirst() / this.operands.getSecond()));
+            } else{
+                throw new IllegalArgumentException("Error. Division by zero.");
+            }
         } else {
-            throw new IllegalArgumentException("Error in the formula.");
+            this.throwIllegalArgument("Error in the formula.");
         }
     }
 
@@ -99,7 +102,7 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
                 && !this.operands.getSecond().equals(this.operands.zero()))) {
             stack.push(Double.toString(this.operands.getFirst() * this.operands.getSecond()));
         } else {
-            throw new IllegalArgumentException("Error in the formula.");
+            this.throwIllegalArgument("Error in the formula.");
         }
     }
 
@@ -109,7 +112,7 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
                 && !this.operands.getSecond().equals(this.operands.zero()))) {
             stack.push(Double.toString(this.operands.getFirst() - this.operands.getSecond()));
         } else {
-            throw new IllegalArgumentException("Error in the formula.");
+            this.throwIllegalArgument("Error in the formula.");
         }
     }
 
@@ -175,7 +178,7 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
             if (isSum) {
                 this.operands.setFirstStr(cellValue);
             } else {
-                throw new IllegalArgumentException("Error in the formula.");
+                this.throwIllegalArgument("Error in the formula.");
             }
         }
         Position pos = cell.getPosition();
@@ -196,13 +199,18 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
             if (isSum) {
                 this.operands.setSecondStr(cellValue);
             } else {
-                throw new IllegalArgumentException("Error in the formula.");
+                this.throwIllegalArgument("Error in the formula.");
             }
         }
         Position pos = cell.getPosition();
         if (!this.spreadsheet.getCellsIncludedInTheFormula().contains(pos)) {
             this.spreadsheet.addPositionToCellsIncludedInTheFormula(pos);
         }
+    }
+
+    private void throwIllegalArgument(String message) {
+        this.calculatonResult = "";
+        throw new IllegalArgumentException(message);
     }
 
 }

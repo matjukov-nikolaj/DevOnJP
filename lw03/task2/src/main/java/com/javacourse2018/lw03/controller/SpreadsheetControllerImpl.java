@@ -23,7 +23,6 @@ public abstract class SpreadsheetControllerImpl implements SpreadsheetController
         }
     }
 
-
     protected abstract Spreadsheet getSpreadsheet();
 
     protected abstract PrefixFormCalculator getCalculator();
@@ -58,7 +57,7 @@ public abstract class SpreadsheetControllerImpl implements SpreadsheetController
     private void cellValueHandler(String[] splitInput) {
         String coordinate = splitInput[1];
         if (!Command.isValidCoordinate(coordinate)) {
-            System.out.println("Invalid coordinate: " + coordinate);
+            System.out.println("Invalid coordinate: "  + coordinate);
             Command.printUsage();
             return;
         }
@@ -69,16 +68,16 @@ public abstract class SpreadsheetControllerImpl implements SpreadsheetController
             cell.setValue(splitInput[2]);
         }
 
-        try {
-            getSpreadsheet().setCell(cell);
-            if (getSpreadsheet().getCellsWithFormula().containsKey(position)) {
-                Position posWithFormula = getSpreadsheet().getCellsWithFormula().get(position);
-                Cell cellWithFormula = getSpreadsheet().getCell(posWithFormula);
+        getSpreadsheet().setCell(cell);
+        if (getSpreadsheet().getCellsWithFormula().containsKey(position)) {
+            Position posWithFormula = getSpreadsheet().getCellsWithFormula().get(position);
+            Cell cellWithFormula = getSpreadsheet().getCell(posWithFormula);
+            try {
                 getCalculator().calculate(cellWithFormula.getFormula());
-                cellWithFormula.setValue(getCalculator().getCalculationResult());
+            } catch (IndexOutOfBoundsException | IllegalArgumentException e) {
+                System.out.println(e.getMessage());
             }
-        } catch (IndexOutOfBoundsException | IllegalArgumentException e) {
-            System.out.println(e.getMessage());
+            cellWithFormula.setValue(getCalculator().getCalculationResult());
         }
     }
 
