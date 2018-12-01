@@ -57,14 +57,14 @@
     <favorites_list name="MyFirstWebProject" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45284238">
+    <splitter split-orientation="horizontal" split-proportion="0.4373385">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+                <state relative-caret-position="203">
+                  <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
                 </state>
               </provider>
             </entry>
@@ -72,43 +72,17 @@
           <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SpreadsheetEngineTests.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java">
+          <file leaf-file-name="SpreadsheetTests.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SpreadsheetTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="383">
-                  <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#457#458#0" expanded="true" />
-                    <element signature="e#511#512#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SpreadsheetControllerImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="48" selection-start-line="48" selection-end-line="48" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FormulaCalculatorImplTests.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+                <state relative-caret-position="437">
+                  <caret line="42" selection-start-line="42" selection-end-line="42" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -119,8 +93,38 @@
           <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-7">
+                <state relative-caret-position="147">
                   <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Operands.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operands.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sonar-project.properties" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SpreadsheetEngineTests.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -132,11 +136,29 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="FormulaCalculatorImpl.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="FormulaCalculatorImpl.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-517">
-                  <caret line="132" selection-start-line="132" selection-end-line="132" />
+                <state relative-caret-position="158">
+                  <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SpreadsheetControllerImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Spreadsheet.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Spreadsheet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="257">
+                  <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -178,12 +200,15 @@
         <option value="$PROJECT_DIR$/src/main/java/lw03/model/Operation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/model/Operation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/SpreadsheetEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImplTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SpreadsheetTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sonar-project.properties" />
       </list>
     </option>
   </component>
@@ -235,8 +260,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1812" />
-    <option name="y" value="20" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -336,12 +361,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="lw03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lw05" type="b2602c69:ProjectViewProjectNode" />
               <item name="task2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lw03" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +393,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lw02/task1" />
+    <property name="last_opened_file_path" value="D:/code-quality/lw05" />
     <property name="options.lastSelected" value="MavenSettings" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -373,10 +402,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.javacourse2018.lw03" />
+      <recent name="" />
       <recent name="model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -400,14 +431,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpreadsheetEngineTests.if_formula_have_mistake_show_message">
+  <component name="RunManager" selected="JUnit.SpreadsheetTests.can_display_table">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SpreadsheetEngineTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormulaCalculatorImplTests.if_formula_contains_incorrect_operation_throw_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task2" />
       <extension name="coverage">
         <pattern>
@@ -418,31 +449,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.SpreadsheetEngineTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SpreadsheetEngineTests.if_command_have_invalid_coordinate_the_show_message" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javacourse2018.lw03.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.SpreadsheetEngineTests" />
-      <option name="METHOD_NAME" value="if_command_have_invalid_coordinate_the_show_message" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.FormulaCalculatorImplTests" />
+      <option name="METHOD_NAME" value="if_formula_contains_incorrect_operation_throw_exception" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -453,7 +461,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SpreadsheetEngineTests.if_formula_have_mistake_show_message" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormulaCalculatorImplTests.if_formula_incorrect_throw_exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task2" />
       <extension name="coverage">
         <pattern>
@@ -464,8 +472,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.SpreadsheetEngineTests" />
-      <option name="METHOD_NAME" value="if_formula_have_mistake_show_message" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.FormulaCalculatorImplTests" />
+      <option name="METHOD_NAME" value="if_formula_incorrect_throw_exception" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -476,19 +484,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SpreadsheetEngineTests.if_formula_have_transitive_closure_show_message" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpreadsheetTests.can_display_table" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse2018.lw03.service.*" />
+          <option name="PATTERN" value="com.javacourse2018.lw03.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.SpreadsheetEngineTests" />
-      <option name="METHOD_NAME" value="if_formula_have_transitive_closure_show_message" />
+      <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.model" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.model.SpreadsheetTests" />
+      <option name="METHOD_NAME" value="can_display_table" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -499,19 +507,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SpreadsheetEngineTests.if_incorrect_command_size_show_help_message" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpreadsheetTests.can_set_cell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacourse2018.lw03.service.*" />
+          <option name="PATTERN" value="com.javacourse2018.lw03.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.service.SpreadsheetEngineTests" />
-      <option name="METHOD_NAME" value="if_incorrect_command_size_show_help_message" />
+      <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.model" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.model.SpreadsheetTests" />
+      <option name="METHOD_NAME" value="can_set_cell" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SpreadsheetTests.throw_exception_if_trying_get_nonexisting_cell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse2018.lw03.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javacourse2018.lw03.model" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.lw03.model.SpreadsheetTests" />
+      <option name="METHOD_NAME" value="throw_exception_if_trying_get_nonexisting_cell" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -630,19 +661,19 @@
       <Port>5050</Port>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpreadsheetEngineTests.if_incorrect_command_size_show_help_message" />
-      <item itemvalue="JUnit.SpreadsheetEngineTests.if_command_have_invalid_coordinate_the_show_message" />
-      <item itemvalue="JUnit.SpreadsheetEngineTests.if_formula_have_transitive_closure_show_message" />
-      <item itemvalue="JUnit.SpreadsheetEngineTests" />
-      <item itemvalue="JUnit.SpreadsheetEngineTests.if_formula_have_mistake_show_message" />
+      <item itemvalue="JUnit.FormulaCalculatorImplTests.if_formula_contains_incorrect_operation_throw_exception" />
+      <item itemvalue="JUnit.FormulaCalculatorImplTests.if_formula_incorrect_throw_exception" />
+      <item itemvalue="JUnit.SpreadsheetTests.can_set_cell" />
+      <item itemvalue="JUnit.SpreadsheetTests.throw_exception_if_trying_get_nonexisting_cell" />
+      <item itemvalue="JUnit.SpreadsheetTests.can_display_table" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpreadsheetEngineTests.if_formula_have_mistake_show_message" />
-        <item itemvalue="JUnit.SpreadsheetEngineTests.if_formula_have_transitive_closure_show_message" />
-        <item itemvalue="JUnit.SpreadsheetEngineTests" />
-        <item itemvalue="JUnit.SpreadsheetEngineTests.if_command_have_invalid_coordinate_the_show_message" />
-        <item itemvalue="JUnit.SpreadsheetEngineTests.if_incorrect_command_size_show_help_message" />
+        <item itemvalue="JUnit.SpreadsheetTests.can_display_table" />
+        <item itemvalue="JUnit.SpreadsheetTests.throw_exception_if_trying_get_nonexisting_cell" />
+        <item itemvalue="JUnit.SpreadsheetTests.can_set_cell" />
+        <item itemvalue="JUnit.FormulaCalculatorImplTests.if_formula_incorrect_throw_exception" />
+        <item itemvalue="JUnit.FormulaCalculatorImplTests.if_formula_contains_incorrect_operation_throw_exception" />
       </list>
     </recent_temporary>
   </component>
@@ -670,47 +701,47 @@
       <workItem from="1539326907378" duration="602000" />
       <workItem from="1539347450976" duration="2000" />
       <workItem from="1543620488966" duration="791000" />
-      <workItem from="1543629205864" duration="4417000" />
+      <workItem from="1543629205864" duration="9532000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_mistake_show_message - 2018.12.01 at 05h 58m 48s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_mistake_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_set_cell - 2018.12.01 at 11h 07m 05s.xml">
+      <configuration name="SpreadsheetTests.can_set_cell" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_mistake_show_message - 2018.12.01 at 05h 58m 49s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_mistake_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_set_cell - 2018.12.01 at 11h 07m 25s.xml">
+      <configuration name="SpreadsheetTests.can_set_cell" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_mistake_show_message - 2018.12.01 at 06h 00m 51s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_mistake_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_set_cell - 2018.12.01 at 11h 07m 50s.xml">
+      <configuration name="SpreadsheetTests.can_set_cell" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_mistake_show_message - 2018.12.01 at 06h 00m 56s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_mistake_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_throw_exception_if_trying_get_nonexisting_cell - 2018.12.01 at 11h 09m 03s.xml">
+      <configuration name="SpreadsheetTests.throw_exception_if_trying_get_nonexisting_cell" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_transitive_closure_show_message - 2018.12.01 at 06h 01m 41s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_transitive_closure_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_display_table - 2018.12.01 at 11h 12m 27s.xml">
+      <configuration name="SpreadsheetTests.can_display_table" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_transitive_closure_show_message - 2018.12.01 at 06h 02m 03s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_transitive_closure_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_display_table - 2018.12.01 at 11h 18m 02s.xml">
+      <configuration name="SpreadsheetTests.can_display_table" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_transitive_closure_show_message - 2018.12.01 at 06h 02m 21s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_transitive_closure_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_display_table - 2018.12.01 at 11h 18m 24s.xml">
+      <configuration name="SpreadsheetTests.can_display_table" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_transitive_closure_show_message - 2018.12.01 at 06h 03m 05s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_transitive_closure_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_display_table - 2018.12.01 at 11h 18m 43s.xml">
+      <configuration name="SpreadsheetTests.can_display_table" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_mistake_show_message - 2018.12.01 at 06h 03m 19s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_mistake_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_display_table - 2018.12.01 at 11h 19m 12s.xml">
+      <configuration name="SpreadsheetTests.can_display_table" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpreadsheetEngineTests_if_formula_have_mistake_show_message - 2018.12.01 at 06h 04m 03s.xml">
-      <configuration name="SpreadsheetEngineTests.if_formula_have_mistake_show_message" configurationId="JUnit" />
+    <history-entry file="SpreadsheetTests_can_display_table - 2018.12.01 at 11h 26m 44s.xml">
+      <configuration name="SpreadsheetTests.can_display_table" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59807000" />
+    <option name="totallyTimeSpent" value="64922000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -725,7 +756,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45300952" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30834213" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
@@ -733,8 +764,8 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21119325" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27032736" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20802534" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28299895" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.19375" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
@@ -811,13 +842,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/model/SolverEquationWithFourDegreeImplTests.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SolverEquationWithFourDegreeImplTests.java</url>
           <line>15</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/model/SolverEquationWithFourDegreeImplTests.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SolverEquationWithFourDegreeImplTests.java</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="20" />
@@ -829,13 +860,13 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/model/SolverEquationWithFourDegreeImplTests.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SolverEquationWithFourDegreeImplTests.java</url>
           <line>61</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/model/SolverEquationWithFourDegreeImplTests.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SolverEquationWithFourDegreeImplTests.java</url>
           <line>78</line>
           <properties />
           <option name="timeStamp" value="23" />
@@ -854,12 +885,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java</url>
-          <line>125</line>
+          <line>124</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="47" />
+      <option name="time" value="55" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -867,17 +916,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1000,48 +1038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-493">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Spreadsheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1056,35 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1092,13 +1063,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="852">
+          <caret line="139" column="35" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImplTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/model/SpreadsheetTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Spreadsheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>

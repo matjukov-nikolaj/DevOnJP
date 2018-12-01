@@ -1,6 +1,5 @@
 package com.javacourse2018.lw03.service;
 
-import com.javacourse2018.lw03.model.Spreadsheet;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -60,7 +59,7 @@ public class SpreadsheetEngineTests {
                 "setformula <coordinate> <formula>\r\n" +
                 "Formula example: B1 *(+ A1 5) A1\r\n" +
                 "display\r\n" +
-                "> \r\n", output.toString());
+                "> ", output.toString());
     }
 
     @Test
@@ -86,14 +85,14 @@ public class SpreadsheetEngineTests {
 
     @Test
     public void if_command_have_invalid_coordinate_the_show_message() {
-        String input = "set abc2 123";
+        String input = "set abc2\r\nexit";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
 
         SpreadsheetEngine engine = new SpreadsheetEngine();
         engine.control();
 
-        Assert.assertEquals("Test #1", "> Invalid coordinate: abc2\r\nexit" +
+        Assert.assertEquals("Test #1", "> Invalid coordinate: abc2\r\n" +
                 "---------------------------------\r\n" +
                 "           USED COMMANDS         \r\n" +
                 "---------------------------------\r\n" +
