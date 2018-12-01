@@ -168,6 +168,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculatorImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/SpreadsheetEngine.java">
           <value>
             <set />
@@ -214,6 +219,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/FormulaCalculatorImplTests.java">
           <value>
             <set />
           </value>

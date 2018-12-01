@@ -83,32 +83,38 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
 
     }
 
-    private void divisionHandler() {
-        this.handleOperands();
+    private void divisionHandler() throws IllegalArgumentException {
+        this.handleOperands(false);
         if ((!this.operands.getFirst().equals(this.operands.zero())
-                || !this.operands.getSecond().equals(this.operands.zero()))) {
+                && !this.operands.getSecond().equals(this.operands.zero()))) {
             stack.push(Double.toString(this.operands.getFirst() / this.operands.getSecond()));
+        } else {
+            throw new IllegalArgumentException("Error in the formula.");
         }
     }
 
-    private void multiplicationHandler() {
-        this.handleOperands();
+    private void multiplicationHandler() throws IllegalArgumentException {
+        this.handleOperands(false);
         if ((!this.operands.getFirst().equals(this.operands.zero())
-                || !this.operands.getSecond().equals(this.operands.zero()))) {
+                && !this.operands.getSecond().equals(this.operands.zero()))) {
             stack.push(Double.toString(this.operands.getFirst() * this.operands.getSecond()));
+        } else {
+            throw new IllegalArgumentException("Error in the formula.");
         }
     }
 
-    private void subtractionHandler() {
-        this.handleOperands();
+    private void subtractionHandler() throws IllegalArgumentException {
+        this.handleOperands(false);
         if ((!this.operands.getFirst().equals(this.operands.zero())
-                || !this.operands.getSecond().equals(this.operands.zero()))) {
+                && !this.operands.getSecond().equals(this.operands.zero()))) {
             stack.push(Double.toString(this.operands.getFirst() - this.operands.getSecond()));
+        } else {
+            throw new IllegalArgumentException("Error in the formula.");
         }
     }
 
     private void additionHandler() {
-        this.handleOperands();
+        this.handleOperands(true);
         if ((!this.operands.getFirst().equals(this.operands.zero())
                 && !this.operands.getSecond().equals(this.operands.zero()))) {
             stack.push(Double.toString(this.operands.getFirst() + this.operands.getSecond()));
@@ -117,15 +123,15 @@ public class FormulaCalculatorImpl implements PrefixFormCalculator {
         stack.push(getTheSumOfTwoOperands());
     }
 
-    private void handleOperands() {
+    private void handleOperands(Boolean isSum) {
         this.operands.setFirstStr(stack.pop());
         this.operands.setSecondStr(stack.pop());
         this.checkOperandsForNumbers();
         if (Command.isValidCoordinate(this.operands.getFirstStr())) {
-            this.handleFirstCoordinate(true);
+            this.handleFirstCoordinate(isSum);
         }
         if (Command.isValidCoordinate(this.operands.getSecondStr())) {
-            this.handleSecondCoordinate(true);
+            this.handleSecondCoordinate(isSum);
         }
     }
 
