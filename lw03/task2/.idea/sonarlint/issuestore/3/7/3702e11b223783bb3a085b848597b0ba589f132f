@@ -1,17 +1,0 @@
-
-{
-squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8Ë‰üÖó,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(›Äæ÷üÿÿÿÿ8Ë‰üÖó,
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(—üÀ¬ÿÿÿÿÿ8Ë‰üÖó,
-[
-squid:S106""9Replace this use of System.out or System.err by a logger.(—üÀ¬ÿÿÿÿÿ8Ë‰üÖó,
-V
-squid:S106,"9Replace this use of System.out or System.err by a logger.(¦ûÅŞ8Ë‰üÖó,
-V
-squid:S1068"9Replace this use of System.out or System.err by a logger.(¦ûÅŞ8Ë‰üÖó,
-[
-squid:S106G"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8Ë‰üÖó,
-psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ã¾«Ü8Ë‰üÖó,
-\squid:UselessImportCheck	",Remove this unused import 'java.util.Stack'.(ŞÈ†üúÿÿÿÿ8Ë‰üÖó,

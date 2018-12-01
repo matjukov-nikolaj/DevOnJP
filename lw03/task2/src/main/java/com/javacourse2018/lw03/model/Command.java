@@ -1,6 +1,6 @@
 package com.javacourse2018.lw03.model;
 
-import static org.apache.commons.lang3.math.NumberUtils.isCreatable;
+import com.javacourse2018.lw03.utils.Utilites;
 
 public enum Command {
 
@@ -35,7 +35,7 @@ public enum Command {
         if (command == null) {
             return false;
         }
-        if (command.equals(SET) && splitInput.length == 3) {
+        if (command.equals(SET) && splitInput.length > 1 && splitInput.length < 4) {
             return true;
         }
         if (command.equals(SET_FORMULA) && splitInput.length >= 2) {
@@ -66,7 +66,7 @@ public enum Command {
 
     public static boolean isValidCoordinate(String coordinate) {
         return !coordinate.isEmpty() && coordinate.length() >= 2 && Character.isLetter(coordinate.charAt(0))
-                && isCreatable(coordinate.substring(1, coordinate.length()));
+                && Utilites.isNumber(coordinate.substring(1, coordinate.length()));
     }
 
 }

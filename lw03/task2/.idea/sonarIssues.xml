@@ -3,17 +3,127 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lw01/src/com/qualitycontrol/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lw01/src/com/qualitycontrol/ParametersController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lw04/src/main/java/controller/BrokenLinksController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lw04/src/main/java/servlets/Servlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lw04/src/main/webapp/display.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lw04/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.idea/.name">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/CommandsController.java">
+        <entry key="$PROJECT_DIR$/src/main/java/BrokenLinksController.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetController.java">
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/controller/SpreadsheetControllerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/model/Cell.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/model/IPosition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/model/IncludedCells.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/model/Operation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/model/Spreadsheet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/model/Table.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacore2018/lw03/service/SpreadsheetEngine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/CalculationOperands.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/CalculationResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Cell.java">
           <value>
             <set />
           </value>
@@ -23,12 +133,132 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/SpreadSheet.java">
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/IPosition.java">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Spreadshe1et.java">
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/IncludedCells.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operands.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Spreadsheet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Table.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/FormulaCalculator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/SpreadsheetEngine.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/controller/BrokenLinksController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/model/SolverEquationWithFourDegree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/model/SolverEquationWithFourDegreeImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/servlets/MyServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/servlets/Servlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/display.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/lw03/service/SpreadsheetEngineTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImplTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/model/SolverEquationWithFourDegreeImplTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/TAaFL/MinimizationAutomate/.idea/.name">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/TAaFL/MinimizationAutomate/src/main/java/com/taafl/model/AnotherCell.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/TAaFL/MinimizationAutomate/src/main/java/com/taafl/model/Cell.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/TAaFL/MinimizationAutomate/src/main/java/com/taafl/servlets/MyServlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/TAaFL/MinimizationAutomate/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/TAaFL/MinimizationAutomate/src/main/webapp/table.jsp">
           <value>
             <set />
           </value>
