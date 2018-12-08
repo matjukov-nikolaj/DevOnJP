@@ -43,6 +43,96 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/collector/ProductCollectorImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/BaseModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/basket/Basket.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/basket/BasketImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/bill/Bill.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/customer/Customer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/customer/CustomerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/customer/CustomerType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/payment/Method.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/payment/PaymentMethod.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/payment/PaymentMethodImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/product/Measure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/product/Product.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/product/ProductImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/model/product/ProductMeasure.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/service/CashDesk.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/service/Supermarket.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.idea/.name">
           <value>
             <set />
