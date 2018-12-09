@@ -14,6 +14,15 @@ public class CustomerImpl extends BaseModel implements Customer {
     private BigDecimal cash;
     private BigDecimal cardCash;
     private BigDecimal bonuses;
+    private CustomerState state;
+
+    public CustomerState getState() {
+        return state;
+    }
+
+    public void setState(CustomerState state) {
+        this.state = state;
+    }
 
     public Basket getBasket() {
         return basket;

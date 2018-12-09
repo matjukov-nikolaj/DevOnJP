@@ -43,6 +43,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/collector/BaseCollector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/collector/CustomerCollector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/collector/PeopleCollectorImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../task1/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java">
           <value>
             <set />

@@ -7,6 +7,10 @@ import java.math.BigDecimal;
 
 public interface Customer {
 
+    Integer getId();
+
+    void setId(Integer id);
+
     CustomerType getType();
 
     void setType(CustomerType type);
@@ -31,5 +35,8 @@ public interface Customer {
 
     void setBonuses(BigDecimal bonuses);
 
+    void setState(CustomerState state);
+
+    CustomerState getState();
 
 }

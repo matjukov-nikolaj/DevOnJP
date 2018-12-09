@@ -63,6 +63,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/BaseCollector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/CustomerCollector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/PeopleCollector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/PeopleCollectorImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java">
           <value>
             <set />
@@ -74,6 +94,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/config/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/CustomerController.java">
           <value>
             <set />
           </value>
@@ -104,6 +129,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerState.java">
           <value>
             <set />
           </value>

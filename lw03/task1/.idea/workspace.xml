@@ -57,178 +57,112 @@
     <favorites_list name="MyFirstWebProject" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Supermarket.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/Supermarket.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#550#551#0" expanded="true" />
-                    <element signature="e#583#584#0" expanded="true" />
-                    <element signature="e#607#608#0" expanded="true" />
-                    <element signature="e#641#642#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/Customer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CustomerImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#531#532#0" expanded="true" />
-                    <element signature="e#560#561#0" expanded="true" />
-                    <element signature="e#611#612#0" expanded="true" />
-                    <element signature="e#638#639#0" expanded="true" />
-                    <element signature="e#687#688#0" expanded="true" />
-                    <element signature="e#714#715#0" expanded="true" />
-                    <element signature="e#772#773#0" expanded="true" />
-                    <element signature="e#808#809#0" expanded="true" />
-                    <element signature="e#862#863#0" expanded="true" />
-                    <element signature="e#898#899#0" expanded="true" />
-                    <element signature="e#951#952#0" expanded="true" />
-                    <element signature="e#982#983#0" expanded="true" />
-                    <element signature="e#1040#1041#0" expanded="true" />
-                    <element signature="e#1072#1073#0" expanded="true" />
-                    <element signature="e#1144#1145#0" expanded="true" />
-                    <element signature="e#1194#1195#0" expanded="true" />
-                    <element signature="e#1260#1261#0" expanded="true" />
-                    <element signature="e#1300#1301#0" expanded="true" />
-                    <element signature="e#1352#1353#0" expanded="true" />
-                    <element signature="e#1382#1383#0" expanded="true" />
-                    <element signature="e#1446#1447#0" expanded="true" />
-                    <element signature="e#1484#1485#0" expanded="true" />
-                    <element signature="e#1544#1545#0" expanded="true" />
-                    <element signature="e#1576#1577#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Basket.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/Basket.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BasketImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/BasketImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#320#321#0" expanded="true" />
-                    <element signature="e#351#352#0" expanded="true" />
-                    <element signature="e#414#415#0" expanded="true" />
-                    <element signature="e#454#455#0" expanded="true" />
-                    <element signature="e#501#502#0" expanded="true" />
-                    <element signature="e#529#530#0" expanded="true" />
-                    <element signature="e#849#850#0" expanded="true" />
-                    <element signature="e#877#878#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CustomerType.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerType.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PaymentMethodImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/payment/PaymentMethodImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Bill.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/bill/Bill.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-                  <folding>
-                    <element signature="e#158#159#0" expanded="true" />
-                    <element signature="e#185#186#0" expanded="true" />
-                    <element signature="e#229#230#0" expanded="true" />
-                    <element signature="e#261#262#0" expanded="true" />
-                    <element signature="e#312#313#0" expanded="true" />
-                    <element signature="e#345#346#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CashDesk.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/CashDesk.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ProductImpl.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/ProductImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductCollector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Supermarket.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/Supermarket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2931#2932#0" expanded="true" />
+                <element signature="e#2974#2975#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/config/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CashDesk.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/CashDesk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2011">
+              <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -254,28 +188,34 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegree.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/ProductMeasure.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/discount/Discount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/config/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/discount/DiscountImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/Measure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollectorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/BaseModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/ProductImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/payment/Method.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/payment/PaymentMethodImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/payment/PaymentMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/Basket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/BasketImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/bill/Bill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/CustomerCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/BaseCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollectorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/PeopleCollectorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/bill/Bill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/BasketImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/Basket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/PeopleCollector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/CashDesk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/config/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/Supermarket.java" />
       </list>
     </option>
@@ -412,16 +352,6 @@
               <item name="lw03" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="basket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="task1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lw03" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="bill" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="task1" type="b2602c69:ProjectViewProjectNode" />
@@ -696,7 +626,7 @@
       <workItem from="1543620488966" duration="1399000" />
       <workItem from="1543652991805" duration="124000" />
       <workItem from="1544031051770" duration="9524000" />
-      <workItem from="1544262421628" duration="4577000" />
+      <workItem from="1544262421628" duration="25656000" />
     </task>
     <servers />
   </component>
@@ -733,7 +663,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70223000" />
+    <option name="totallyTimeSpent" value="91302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -750,16 +680,17 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45300952" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.312566" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3157339" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20063359" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.18541667" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20063359" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.20520833" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -772,7 +703,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="IDEtalk" order="3" />
       <window_info anchor="right" id="CDI" order="4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946146" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32925472" />
       <window_info anchor="right" id="JSF" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32854864" />
@@ -878,8 +808,20 @@
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/CashDesk.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="50" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -887,24 +829,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/Servlet.java" />
-    <entry file="file://W:/divays/JavaTraining2011_Sintez/week10/task12/pom.xml" />
-    <entry file="file://W:/divays/JavaTraining2011_Sintez/week10/task12/src/main/java/servlet/FileManager.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar!/org/jsoup/nodes/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="324" column="20" selection-start-line="324" selection-start-column="20" selection-end-line="324" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task1.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1003,30 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/config/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/Measure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1038,23 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/ProductImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1079,99 +962,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1446#1447#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/payment/PaymentMethodImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/BasketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,38 +984,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/CashDesk.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollectorImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/ProductImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/Measure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="2622" column="15" selection-start-line="2622" selection-start-column="15" selection-end-line="2622" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/BaseCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/PeopleCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/basket/BasketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/customer/CustomerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/CashDesk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2011">
+          <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/collector/ProductCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/config/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/Supermarket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#2931#2932#0" expanded="true" />
+            <element signature="e#2974#2975#0" expanded="true" />
           </folding>
         </state>
       </provider>

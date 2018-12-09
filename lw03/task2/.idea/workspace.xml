@@ -123,8 +123,8 @@
           <file leaf-file-name="Operation.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+                <state relative-caret-position="357">
+                  <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -622,7 +622,7 @@
       <workItem from="1543825352629" duration="19000" />
       <workItem from="1544032435795" duration="785000" />
       <workItem from="1544036506192" duration="1375000" />
-      <workItem from="1544262425323" duration="596000" />
+      <workItem from="1544262425323" duration="1195000" />
     </task>
     <servers />
   </component>
@@ -659,7 +659,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71147000" />
+    <option name="totallyTimeSpent" value="71746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1034,8 +1034,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/utils/Constants.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="833">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1075,8 +1075,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        <state relative-caret-position="357">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
