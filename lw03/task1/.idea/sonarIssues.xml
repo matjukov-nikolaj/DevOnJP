@@ -188,7 +188,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/report/Report.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/model/report/ReportImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/CashDesk.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/service/CashDeskImpl.java">
           <value>
             <set />
           </value>

@@ -9,6 +9,8 @@ import com.javacourse2018.lw03.model.customer.CustomerState;
 import com.javacourse2018.lw03.model.payment.Method;
 import com.javacourse2018.lw03.model.product.Product;
 import com.javacourse2018.lw03.model.product.ProductImpl;
+import com.javacourse2018.lw03.model.report.Report;
+import com.javacourse2018.lw03.model.report.ReportImpl;
 
 import java.math.BigDecimal;
 import java.util.*;
@@ -19,7 +21,8 @@ public class Supermarket {
     private ProductCollector productCollector = new ProductCollector();
     private PeopleCollector peopleCollector = new PeopleCollector();
 
-    private List<CashDesk> cashDesks = new ArrayList<>();
+    private List<CashDeskImpl> cashDesks = new ArrayList<>();
+    private Report report = new ReportImpl();
     private Integer workingTime;
 
     private Random random = new Random();
@@ -31,7 +34,7 @@ public class Supermarket {
 
     private void initializeCashDesk() {
         for (int i = 0; i < Constants.CASH_DESK_SIZE; ++i) {
-            cashDesks.add(new CashDesk(productCollector.getEntities()));
+            cashDesks.add(new CashDeskImpl(productCollector.getEntities(), report));
         }
     }
 
@@ -39,18 +42,20 @@ public class Supermarket {
         while (this.workingTime != 0) {
             if (this.isNewCustomer()) {
                 this.addNewCustomer(this.random.nextInt((this.peopleCollector.size() - 1)));
+                this.report.incrementNumberOfCustomers();
             }
             this.customersHandler();
             this.cashDesksHandler();
             this.workingTime--;
         }
+        this.report.printReport();
     }
 
     private void customersHandler() {
         for (Customer customer : this.customers) {
             if (customer.getState() == CustomerState.BUY) {
-                CashDesk cashDesk = this.getRandomCashDesk();
-                cashDesk.addCustomerToQueue(customer);
+                CashDeskImpl cashDeskImpl = this.getRandomCashDesk();
+                cashDeskImpl.addCustomerToQueue(customer);
                 continue;
             }
             CustomerState state = CustomerState.getRandom();
@@ -74,8 +79,8 @@ public class Supermarket {
     }
 
     private void cashDesksHandler() {
-        for (CashDesk cashDesk : this.cashDesks) {
-            cashDesk.serve();
+        for (CashDeskImpl cashDeskImpl : this.cashDesks) {
+            cashDeskImpl.serve();
         }
     }
 
@@ -95,7 +100,7 @@ public class Supermarket {
     }
 
     private Product getRandomProduct() {
-        Integer length = this.productCollector.size() - 1;
+        Integer length = this.productCollector.size();
         Integer random = this.random.nextInt(length);
         Product product = this.productCollector.getEntity(random);
         Product newProduct = new ProductImpl();
@@ -105,7 +110,7 @@ public class Supermarket {
         newProduct.setDiscount(product.getDiscount());
         newProduct.setMeasure(product.getMeasure());
         newProduct.setName(product.getName());
-        Integer amount = this.random.nextInt(Constants.MAX_CUSTOMER_PRODUCT_AMOUNT - 1) + 1;
+        Integer amount = this.random.nextInt(Constants.MAX_CUSTOMER_PRODUCT_AMOUNT) + 1;
         if (amount > product.getAmount()) {
             amount = product.getAmount();
             this.productCollector.getEntities().remove(product.getId());
@@ -114,7 +119,7 @@ public class Supermarket {
         return newProduct;
     }
 
-    private CashDesk getRandomCashDesk() {
+    private CashDeskImpl getRandomCashDesk() {
         Integer random = this.random.nextInt((Constants.CASH_DESK_SIZE - 1));
         return this.cashDesks.get(random);
     }
