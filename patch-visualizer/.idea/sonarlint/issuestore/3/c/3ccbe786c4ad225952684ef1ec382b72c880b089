@@ -1,0 +1,15 @@
+
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(Î–¢áùÿÿÿÿ8ÄèóÚş,
+ª%squid:RedundantThrowsDeclarationCheck+"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(…®ñùúÿÿÿÿ8ÄèóÚş,
+[
+squid:S106M"9Replace this use of System.out or System.err by a logger.(ëÈ¢ ıÿÿÿÿ8ÄèóÚş,
+Esquid:S1068"'Remove this unused "LOG" private field.(ÃÍô¶8ÄèóÚş,
+U
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Ÿ³ÎF8ÄèóÚş,
+[
+squid:S106K"9Replace this use of System.out or System.err by a logger.(®ÔÀ¢şÿÿÿÿ8ÄèóÚş,
+U
+squid:S106L"9Replace this use of System.out or System.err by a logger.(°íº}8ÄèóÚş,
+V
+squid:S106O"9Replace this use of System.out or System.err by a logger.(Ä–¿Ì8ÄèóÚş,

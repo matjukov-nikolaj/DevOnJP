@@ -24,7 +24,7 @@ public class BasketImpl implements Basket {
     }
 
     public void incrementBasketCost(BigDecimal cost) {
-        this.basketCost.add(cost);
+        this.basketCost = this.basketCost.add(cost);
     }
 
     public BigDecimal getBasketCost() {

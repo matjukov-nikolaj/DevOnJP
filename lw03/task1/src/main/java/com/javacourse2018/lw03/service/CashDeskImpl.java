@@ -12,14 +12,13 @@ import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
-import java.util.TreeMap;
 
 public class CashDeskImpl implements CashDesk {
     private static final Log LOG = LogFactory.getLog(CashDeskImpl.class);
 
     private Queue<Customer> queue = new LinkedList<>();
 
-    private Map<Integer, Product> store = new TreeMap<>();
+    private Map<Integer, Product> store;
 
     private Report report;
 
