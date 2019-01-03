@@ -1,0 +1,18 @@
+From 6527140a0afaa268a63071832a13a888abc0b617 Mon Sep 17 00:00:00 2001
+From: matjukov-nikolaj <blatnoi.kolyan@yandex.ru>
+Date: Thu, 3 Jan 2019 22:58:36 +0300
+Subject: [PATCH] 6
+
+---
+ lolCheck.java | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 lolCheck.java
+
+diff --git a/lolCheck.java b/lolCheck.java
+deleted file mode 100644
+index d800886..0000000
+--- a/lolCheck.java
++++ /dev/null
+@@ -1 +0,0 @@
+-123
+\ No newline at end of file

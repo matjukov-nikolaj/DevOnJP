@@ -61,7 +61,7 @@ public class CommandLineArgumentsControllerImpl implements CommandLineArgumentsC
                     break;
                 case MODE:
                     String modeStr = this.args.get(i + 1);
-                    DisplayMode mode = DisplayMode.createFromString(modeStr);
+                    DisplayMode mode = DisplayMode.createFromString(modeStr.toLowerCase());
                     this.arguments.setDisplayMode(mode);
                     break;
                 default:

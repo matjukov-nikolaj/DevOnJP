@@ -398,6 +398,16 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/git-comparator/patch-visualizer/src/main/java/com/javacourse2018/controller/CommandLineArgumentsControllerImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/git-comparator/patch-visualizer/src/test/java/com/javacourse2018/controller/CommandLineArgumentsControllerTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

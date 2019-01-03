@@ -2,5 +2,5 @@ projectKey=com.javacourse2018:gitVisualizer
 serverUrl=http://localhost:9000
 serverVersion=7.2.1.14109
 dashboardUrl=http://localhost:9000/dashboard?id=com.javacourse2018%3AgitVisualizer
-ceTaskId=AWgO-9BYQIk6Jw_c0a9b
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWgO-9BYQIk6Jw_c0a9b
+ceTaskId=AWgVP9-R099v2vUqJqGq
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWgVP9-R099v2vUqJqGq

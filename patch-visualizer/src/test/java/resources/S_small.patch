@@ -1,0 +1,16 @@
+From fdb377d16efe230dcda798ee5ef96688db307f54 Mon Sep 17 00:00:00 2001
+From: matjukov-nikolaj <blatnoi.kolyan@yandex.ru>
+Date: Thu, 3 Jan 2019 11:59:56 +0300
+Subject: [PATCH] 5
+
+---
+ lolCheck.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/lolCheck.java b/lolCheck.java
+index e69de29..d800886 100644
+--- a/lolCheck.java
++++ b/lolCheck.java
+@@ -0,0 +1 @@
++123
+\ No newline at end of file

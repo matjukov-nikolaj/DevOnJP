@@ -59,6 +59,7 @@ public abstract class BaseGenerator<T extends CommitLine> implements Lines, Gene
     protected static final String CODE_CLOSE = "</code>";
     protected static final String H3 = "<h3>";
     protected static final String H3_CLOSE = "</h3>";
+    private static final String FILE = "File: ";
 
     protected String htmlPath;
 
@@ -89,8 +90,8 @@ public abstract class BaseGenerator<T extends CommitLine> implements Lines, Gene
     }
 
     public void generate() {
-        if (this.lines.isEmpty()) {
-            LOG.warn("Field 'lines' is not set");
+        if (this.lines.isEmpty() && this.commitInfo == null) {
+            LOG.warn("Empty lines and commit info");
             return;
         }
         File file = new File(this.htmlPath);
@@ -145,6 +146,10 @@ public abstract class BaseGenerator<T extends CommitLine> implements Lines, Gene
 
         out.write(H3);
         out.write(this.commitInfo.getSubject());
+        out.write(H3_CLOSE);
+
+        out.write(H3);
+        out.write(FILE + this.commitInfo.getFileName());
         out.write(H3_CLOSE);
     }
 

@@ -33,6 +33,14 @@ public class MainFileReader {
         }
     }
 
+    public String getMainFilePath() {
+        return mainFilePath;
+    }
+
+    public void setMainFilePath(String mainFilePath) {
+        this.mainFilePath = mainFilePath;
+    }
+
     public List<String> getLines() {
         return lines;
     }

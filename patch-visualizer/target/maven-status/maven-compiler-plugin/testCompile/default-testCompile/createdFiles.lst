@@ -1,1 +1,5 @@
-com\javacourse2018\controller\CommandLineArgumentsControllerTests.class
+com\javacourse2018\controller\CommandLineArgumentsControllerImplTest.class
+com\javacourse2018\service\HtmlGeneratorTest.class
+com\javacourse2018\utilites\TestUtilites.class
+com\javacourse2018\service\PatchFileParserImplTest.class
+com\javacourse2018\service\MainFileReaderTest.class

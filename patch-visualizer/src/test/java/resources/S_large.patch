@@ -1,0 +1,177 @@
+From f8e8bcdc49f05c5d5e4e863282784d18cfd36860 Mon Sep 17 00:00:00 2001
+From: matjukov-nikolaj <blatnoi.kolyan@yandex.ru>
+Date: Wed, 26 Dec 2018 19:06:07 +0300
+Subject: [PATCH] 2
+
+---
+ FormulaCalculator.java | 73 ++++++++++++++++++++++++++++--------------
+ 1 file changed, 49 insertions(+), 24 deletions(-)
+
+diff --git a/FormulaCalculator.java b/FormulaCalculator.java
+index fcf7c9b..1e5e119 100644
+--- a/FormulaCalculator.java
++++ b/FormulaCalculator.java
+@@ -13,19 +13,21 @@
+
+     private Operands operands = new Operands();
+
+-    private String calculatonResult = "123";
++    private String calculatonResult = "";
+
++    private Spreadsheet spreadsheet;
+
+     public FormulaCalculatorImpl(Spreadsheet spreadsheet) {
+         this.spreadsheet = spreadsheet;
+     }
+
++    @Override
+     public String getCalculationResult() {
+         return calculatonResult;
+     }
+
+     @Override
+-    public void calculate(String formula) {
++    public void calculate(String formula) throws IllegalArgumentException, IndexOutOfBoundsException {
+         formula = formula.replaceAll("[\\(\\)]", "");
+         List<String> elements = Arrays.asList(formula.split(" "));
+         for (int i = elements.size() - 1; i != 0; --i) {
+@@ -33,6 +35,13 @@ public void calculate(String formula) {
+             if (item.equals("")) {
+                 continue;
+             }
++            if (!item.contains(Operation.operationToString(Operation.ADDITION))
++                    && !item.contains(Operation.operationToString(Operation.SUBTRACTION))
++                    && !item.contains(Operation.operationToString(Operation.MULTIPLICATION))
++                    && !item.contains(Operation.operationToString(Operation.DIVISION))) {
++                this.stack.push(item);
++                continue;
++            }
+             if (item.length() != 1) {
+                 throw new IllegalArgumentException("Incorrect operation: " + item);
+             }
+@@ -41,7 +50,9 @@ public void calculate(String formula) {
+         }
+         if (this.stack.size() == 1) {
+             this.calculatonResult = this.stack.pop();
++            return;
+         }
++        throw new IllegalArgumentException("Incorrect formula." + formula);
+     }
+
+     @Override
+@@ -51,7 +62,7 @@ public void clearResult() {
+         this.stack.clear();
+     }
+
+-    private void expressionEvaluationManager(Operation operation) {
++    private void expressionEvaluationManager(Operation operation) throws IllegalArgumentException, IndexOutOfBoundsException {
+         this.operands.clear();
+         switch (operation) {
+             case ADDITION:
+@@ -66,8 +77,6 @@ private void expressionEvaluationManager(Operation operation) {
+             case DIVISION:
+                 this.divisionHandler();
+                 break;
+-			case SOME:
+-				break;
+             default:
+                 break;
+         }
+@@ -82,9 +91,6 @@ private void divisionHandler() throws IllegalArgumentException {
+         } else {
+             throw new IllegalArgumentException("Error in the formula.");
+         }
+-		if (stack.isEmpty()) {
+-			return;
+-		}
+     }
+
+     private void multiplicationHandler() throws IllegalArgumentException {
+@@ -97,6 +103,26 @@ private void multiplicationHandler() throws IllegalArgumentException {
+         }
+     }
+
++    private void subtractionHandler() throws IllegalArgumentException {
++        this.handleOperands(false);
++        if ((!this.operands.getFirst().equals(this.operands.zero())
++                && !this.operands.getSecond().equals(this.operands.zero()))) {
++            stack.push(Double.toString(this.operands.getFirst() - this.operands.getSecond()));
++        } else {
++            throw new IllegalArgumentException("Error in the formula.");
++        }
++    }
++
++    private void additionHandler() {
++        this.handleOperands(true);
++        if ((!this.operands.getFirst().equals(this.operands.zero())
++                && !this.operands.getSecond().equals(this.operands.zero()))) {
++            stack.push(Double.toString(this.operands.getFirst() + this.operands.getSecond()));
++            return;
++        }
++        stack.push(getTheSumOfTwoOperands());
++    }
++
+     private void handleOperands(Boolean isSum) {
+         this.operands.setFirstStr(stack.pop());
+         this.operands.setSecondStr(stack.pop());
+@@ -106,12 +132,6 @@ private void handleOperands(Boolean isSum) {
+         }
+         if (Command.isValidCoordinate(this.operands.getSecondStr())) {
+             this.handleSecondCoordinate(isSum);
+-        }
+-		        if (Command.isValidCoordinate(this.operands.getSecondStr())) {
+-            this.handleSecondCoordinate(isSum);
+-        }
+-		        if (Command.isValidCoordinate(this.operands.getSecondStr())) {
+-            this.handleSecondCoordinate(isSum);
+         }
+     }
+
+@@ -143,14 +163,19 @@ private void checkOperandsForNumbers() {
+     }
+
+     //  @param class fields
+-    private void handleFirstCoordinate(Boolean isSum) {
++    private void handleFirstCoordinate(Boolean isSum) throws IllegalArgumentException {
+         String number = this.operands.getFirstStr().substring(1, this.operands.getFirstStr().length());
+         Position position = new Position(this.operands.getFirstStr().toUpperCase().charAt(0), Integer.parseInt(number));
++        Cell cell;
++        cell = this.spreadsheet.getCell(position);
++        String cellValue = cell.getValue();
+         if (Utilites.isNumber(cellValue)) {
+             this.operands.setFirst(Double.parseDouble(cell.getValue()));
+         } else {
+             if (isSum) {
+                 this.operands.setFirstStr(cellValue);
++            } else {
++                throw new IllegalArgumentException("Error in the formula.");
+             }
+         }
+         Position pos = cell.getPosition();
+@@ -165,18 +190,18 @@ private void handleSecondCoordinate(Boolean isSum) throws IllegalArgumentExcepti
+         Cell cell;
+         cell = this.spreadsheet.getCell(position);
+         String cellValue = cell.getValue();
++        if (Utilites.isNumber(cellValue)) {
++            this.operands.setSecond(Double.parseDouble(cell.getValue()));
++        } else {
++            if (isSum) {
++                this.operands.setSecondStr(cellValue);
++            } else {
++                throw new IllegalArgumentException("Error in the formula.");
++            }
++        }
+         Position pos = cell.getPosition();
+         if (!this.spreadsheet.getCellsIncludedInTheFormula().contains(pos)) {
+             this.spreadsheet.addPositionToCellsIncludedInTheFormula(pos);
+-        }
+-		        if (!this.spreadsheet.getCellsIncludedInTheFormula().contains(pos)) {
+-            this.spreadsheet.addPositionToCellsIncludedInTheFormula(pos);
+-        }
+-		        if (!this.spreadsheet.getCellsIncludedInTheFormula().contains(pos)) {
+-            this.spreadsheet.addPositionToCellsIncludedInTheFormula(pos);
+-        }
+-		        if (!this.spreadsheet.getCellsIncludedInTheFormula().contains(pos)) {
+-            this.spreadsheet.addPositionToCellsIncludedInTheFormula(pos);
+         }
+     }

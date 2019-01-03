@@ -1,1 +1,6 @@
-D:\git-comparator\patch-visualizer\src\test\java\com\javacourse2018\controller\CommandLineArgumentsControllerTests.java
+D:\git-comparator\patch-visualizer\src\test\java\com\javacourse2018\utilites\TestUtilites.java
+D:\git-comparator\patch-visualizer\src\test\java\com\javacourse2018\service\PatchFileParserImplTest.java
+D:\git-comparator\patch-visualizer\src\test\java\com\javacourse2018\service\HtmlGeneratorTest.java
+D:\git-comparator\patch-visualizer\src\test\java\com\javacourse2018\service\CommitLineGeneratorTest.java
+D:\git-comparator\patch-visualizer\src\test\java\com\javacourse2018\service\MainFileReaderTest.java
+D:\git-comparator\patch-visualizer\src\test\java\com\javacourse2018\controller\CommandLineArgumentsControllerImplTest.java

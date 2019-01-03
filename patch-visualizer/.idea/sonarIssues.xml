@@ -458,7 +458,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/controller/CommandLineArgumentsControllerImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/controller/CommandLineArgumentsControllerTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/CommitLineGeneratorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/MainFileReaderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/PatchFileParserImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/utilites/TestUtilites.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/utilites/TestsUtilites.java">
           <value>
             <set />
           </value>
@@ -469,6 +504,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/model/SolverEquationWithFourDegreeImplTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/resources/k_mainFile.txt">
           <value>
             <set />
           </value>

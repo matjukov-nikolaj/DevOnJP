@@ -43,7 +43,11 @@ public class CommitLineGenerator implements Lines, Generator {
                 handleRawLine(rawLine);
             }
             CommitChunkPosition position = block.getCurrCommit();
-            this.mainFileIndex = position.getHeight() + position.getOffset();
+            if (position.getHeight() == 0 || position.getOffset() == 0) {
+                this.mainFileIndex = position.getHeight() + position.getOffset() + 1;
+            } else {
+                this.mainFileIndex = position.getHeight() + position.getOffset();
+            }
         }
         this.copyDefaultLines(mainFileLines.size());
     }
