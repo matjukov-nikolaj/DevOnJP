@@ -92,11 +92,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="expectedOutSplitLarge.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="487">
+                  <caret line="91" column="73" lean-forward="true" selection-start-line="91" selection-start-column="73" selection-end-line="91" selection-end-column="73" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="expectedOutSplitLarge.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutSplitLarge.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret column="920" lean-forward="true" selection-start-column="920" selection-end-column="920" />
+                <state relative-caret-position="136">
+                  <caret column="920" selection-start-column="920" selection-end-column="920" />
                 </state>
               </provider>
             </entry>
@@ -104,8 +113,8 @@
           <file leaf-file-name="expectedOutUnifiedLarge.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutUnifiedLarge.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret column="806" lean-forward="true" selection-start-column="806" selection-end-column="806" />
+                <state relative-caret-position="119">
+                  <caret column="806" selection-start-column="806" selection-end-column="806" />
                 </state>
               </provider>
             </entry>
@@ -165,18 +174,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BaseGenerator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseGenerator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="586">
-                  <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -185,7 +182,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/CommitLineGenerator.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-226">
-                  <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+                  <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -262,7 +259,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/controller/CommandLineArgumentsControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/controller/CommandLineArgumentsControllerImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/MainFileReader.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/resources/k_mainFile.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/MainFileReaderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/utilites/TestUtilites.java" />
@@ -274,6 +270,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/expectedOutUnifiedLarge.html" />
         <option value="$PROJECT_DIR$/src/test/java/resources/expectedOutSplitLarge.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -797,20 +794,11 @@
       <workItem from="1546415279184" duration="23716000" />
       <workItem from="1546504679095" duration="7658000" />
       <workItem from="1546512797231" duration="5903000" />
-      <workItem from="1546543868890" duration="3466000" />
+      <workItem from="1546543868890" duration="3935000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateSplitHtml - 2019.01.04 at 11h 07m 14s.xml">
-      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlGeneratorTest - 2019.01.04 at 11h 09m 10s.xml">
-      <configuration name="HtmlGeneratorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlGeneratorTest - 2019.01.04 at 11h 12m 34s.xml">
-      <configuration name="HtmlGeneratorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateSplitHtml - 2019.01.04 at 11h 16m 24s.xml">
       <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" configurationId="JUnit" />
     </history-entry>
@@ -832,9 +820,18 @@
     <history-entry file="HtmlGeneratorTest - 2019.01.04 at 11h 21m 21s.xml">
       <configuration name="HtmlGeneratorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateLargeSplitHtml - 2019.01.04 at 11h 22m 09s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateLargeSplitHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateUnifiedHtml - 2019.01.04 at 11h 22m 12s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateUnifiedHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateLargeSplitHtml - 2019.01.04 at 11h 22m 12s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateLargeSplitHtml" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124344000" />
+    <option name="totallyTimeSpent" value="124813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -851,10 +848,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3157339" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32418162" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32418162" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.19895834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.19895834" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="SonarQube" order="8" />
@@ -863,7 +860,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41077086" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41077086" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Changes" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1282,13 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/resources/k_mainFile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1337,7 +1327,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/CommitLineGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-226">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1431,8 +1421,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutUnifiedLarge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret column="806" lean-forward="true" selection-start-column="806" selection-end-column="806" />
+        <state relative-caret-position="119">
+          <caret column="806" selection-start-column="806" selection-end-column="806" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutSplitLarge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret column="920" selection-start-column="920" selection-end-column="920" />
         </state>
       </provider>
     </entry>
@@ -1446,10 +1443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutSplitLarge.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret column="920" lean-forward="true" selection-start-column="920" selection-end-column="920" />
+        <state relative-caret-position="487">
+          <caret line="91" column="73" lean-forward="true" selection-start-line="91" selection-start-column="73" selection-end-line="91" selection-end-column="73" />
         </state>
       </provider>
     </entry>
