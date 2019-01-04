@@ -9,9 +9,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-public abstract class BaseGenerator<T extends CommitLine> implements Lines, Generator {
+public abstract class BaseHtmlGenerator<T extends CommitLine> implements Lines, Generator {
 
-    protected static final Log LOG = LogFactory.getLog(BaseGenerator.class);
+    protected static final Log LOG = LogFactory.getLog(BaseHtmlGenerator.class);
 
     protected static final String HTML_HEADER = "<!doctype html>" +
             "<html lang=\"en\">" +
@@ -83,7 +83,7 @@ public abstract class BaseGenerator<T extends CommitLine> implements Lines, Gene
         this.commitInfo = commitInfo;
     }
 
-    public BaseGenerator(String path, List<GeneralCommitLine> lines, CommitInfo commitInfo) {
+    public BaseHtmlGenerator(String path, List<GeneralCommitLine> lines, CommitInfo commitInfo) {
         this.htmlPath = path;
         this.lines = lines;
         this.commitInfo = commitInfo;

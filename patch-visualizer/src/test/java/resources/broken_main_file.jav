@@ -1,3 +1,5 @@
+package resources;
+
 /******************************************************************************
  *  Compilation:  javac HelloWorld.java
  *  Execution:    java HelloWorld

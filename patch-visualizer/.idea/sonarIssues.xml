@@ -248,6 +248,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/resources/HelloWorld.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/BrokenLinksController.java">
           <value>
             <set />
@@ -363,7 +368,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseHtmlGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/CommitLineGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/DifferenceBlockValidator.java">
           <value>
             <set />
           </value>
@@ -469,6 +484,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/CommitLineGeneratorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/DifferenceBlockValidatorTest.java">
           <value>
             <set />
           </value>

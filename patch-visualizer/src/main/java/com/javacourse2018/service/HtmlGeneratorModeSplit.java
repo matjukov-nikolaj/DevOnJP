@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HtmlGeneratorModeSplit extends BaseGenerator<GeneralCommitLine> {
+public class HtmlGeneratorModeSplit extends BaseHtmlGenerator<GeneralCommitLine> {
     private static final Log LOG = LogFactory.getLog(CommitLineGenerator.class);
 
     private List<GeneralCommitLine> tmpCurLines;

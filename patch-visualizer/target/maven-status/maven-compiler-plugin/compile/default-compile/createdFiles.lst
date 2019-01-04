@@ -5,13 +5,13 @@ com\javacourse2018\model\DifferenceBlock.class
 com\javacourse2018\service\HtmlGeneratorModeUnified.class
 com\javacourse2018\controller\CommandLineArgumentsControllerImpl.class
 com\javacourse2018\service\HtmlGeneratorModeSplit.class
-com\javacourse2018\service\BaseGenerator.class
 com\javacourse2018\controller\CommandLineArgumentsController.class
 com\javacourse2018\service\PatchFileParserImpl.class
 com\javacourse2018\App.class
 com\javacourse2018\controller\ApplicationController.class
 com\javacourse2018\model\Arguments.class
 com\javacourse2018\model\GeneralCommitLine.class
+com\javacourse2018\service\DifferenceBlockValidator.class
 com\javacourse2018\model\CommitInfo.class
 com\javacourse2018\service\PatchFileParser.class
 com\javacourse2018\model\Lines.class
@@ -20,6 +20,7 @@ com\javacourse2018\model\CommitLine.class
 com\javacourse2018\service\HtmlGenerator$1.class
 com\javacourse2018\service\MainFileReader.class
 com\javacourse2018\model\DisplayMode.class
+com\javacourse2018\service\BaseHtmlGenerator.class
 com\javacourse2018\service\CommitLineGenerator.class
 com\javacourse2018\model\CommitChunkPosition.class
 com\javacourse2018\model\CommitLineStatus.class

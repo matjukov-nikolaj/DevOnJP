@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-public class HtmlGeneratorModeUnified extends BaseGenerator<GeneralCommitLine> {
+public class HtmlGeneratorModeUnified extends BaseHtmlGenerator<GeneralCommitLine> {
 
     public HtmlGeneratorModeUnified(String path, List<GeneralCommitLine> lines, CommitInfo commitInfo) {
         super(path, lines, commitInfo);

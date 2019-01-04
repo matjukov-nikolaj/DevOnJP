@@ -1,8 +1,10 @@
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\service\HtmlGeneratorModeUnified.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\App.java
+D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\service\BaseHtmlGenerator.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\Lines.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\GeneralCommitLine.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\Person.java
+D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\service\DifferenceBlockValidator.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\service\PatchFileParserImpl.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\controller\CommandLineArgumentsControllerImpl.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\service\MainFileReader.java
@@ -15,7 +17,6 @@ D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\Differ
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\CommitLine.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\CommandLineArguments.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\service\Generator.java
-D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\service\BaseGenerator.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\CommitInfo.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\CommitLineImpl.java
 D:\git-comparator\patch-visualizer\src\main\java\com\javacourse2018\model\DisplayMode.java

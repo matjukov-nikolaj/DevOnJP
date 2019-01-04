@@ -39,6 +39,14 @@ public class ApplicationController {
         mainFileReader.read();
 
         try {
+            DifferenceBlockValidator differenceBlockValidator = new DifferenceBlockValidator(parser.getBlocks(), mainFileReader.getLines());
+            differenceBlockValidator.check();
+        } catch (Exception e) {
+            LOG.error("Incorrect main file.");
+            return;
+        }
+
+        try {
             CommitLineGenerator generator = new CommitLineGenerator(mainFileReader.getLines(), parser.getBlocks());
             generator.generate();
 
