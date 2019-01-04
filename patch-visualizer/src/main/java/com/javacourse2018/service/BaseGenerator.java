@@ -59,7 +59,7 @@ public abstract class BaseGenerator<T extends CommitLine> implements Lines, Gene
     protected static final String CODE_CLOSE = "</code>";
     protected static final String H3 = "<h3>";
     protected static final String H3_CLOSE = "</h3>";
-    private static final String FILE = "File: ";
+    private static final String FILE_NAME = "File name: ";
 
     protected String htmlPath;
 
@@ -149,7 +149,7 @@ public abstract class BaseGenerator<T extends CommitLine> implements Lines, Gene
         out.write(H3_CLOSE);
 
         out.write(H3);
-        out.write(FILE + this.commitInfo.getFileName());
+        out.write(FILE_NAME + this.commitInfo.getFileName());
         out.write(H3_CLOSE);
     }
 

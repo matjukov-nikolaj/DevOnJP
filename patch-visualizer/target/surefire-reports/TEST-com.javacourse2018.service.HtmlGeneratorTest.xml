@@ -19,7 +19,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire5466128700696243169\surefirebooter5661421857229612161.jar C:\Users\MarioSlim\AppData\Local\Temp\surefire5466128700696243169 2019-01-03T22-43-51_954-jvmRun1 surefire3566706859967301997tmp surefire_02303813314135417780tmp"/>
+    <property name="sun.java.command" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire8870352251001150226\surefirebooter1896367047373856938.jar C:\Users\MarioSlim\AppData\Local\Temp\surefire8870352251001150226 2019-01-04T11-22-23_465-jvmRun1 surefire7695880477159943340tmp surefire_07656083745044986254tmp"/>
     <property name="surefire.test.class.path" value="D:\git-comparator\patch-visualizer\target\test-classes;D:\git-comparator\patch-visualizer\target\classes;C:\Users\MarioSlim\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\MarioSlim\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MarioSlim\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\MarioSlim"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire5466128700696243169\surefirebooter5661421857229612161.jar;C:\\Users\\MarioSlim\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire8870352251001150226\surefirebooter1896367047373856938.jar;C:\\Users\\MarioSlim\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,8 +62,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="htmlGeneratorCanGenerateLargeSplitHtml" classname="com.javacourse2018.service.HtmlGeneratorTest" time="0"/>
-  <testcase name="htmlGeneratorCanGenerateLargeUnifiedHtml" classname="com.javacourse2018.service.HtmlGeneratorTest" time="0.021"/>
-  <testcase name="htmlGeneratorCanGenerateUnifiedHtml" classname="com.javacourse2018.service.HtmlGeneratorTest" time="0.007"/>
-  <testcase name="htmlGeneratorCanGenerateSplitHtml" classname="com.javacourse2018.service.HtmlGeneratorTest" time="0.008"/>
+  <testcase name="htmlGeneratorCanGenerateLargeSplitHtml" classname="com.javacourse2018.service.HtmlGeneratorTest" time="0.002"/>
+  <testcase name="htmlGeneratorCanGenerateLargeUnifiedHtml" classname="com.javacourse2018.service.HtmlGeneratorTest" time="0.022"/>
+  <testcase name="htmlGeneratorCanGenerateUnifiedHtml" classname="com.javacourse2018.service.HtmlGeneratorTest" time="0.006"/>
+  <testcase name="htmlGeneratorCanGenerateSplitHtml" classname="com.javacourse2018.service.HtmlGeneratorTest" time="0.005"/>
 </testsuite>

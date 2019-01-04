@@ -68,35 +68,96 @@
     <splitter split-orientation="horizontal" split-proportion="0.659948">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="CommitLineGenerator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/CommitLineGenerator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HtmlGenerator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGenerator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="HtmlGeneratorModeSplit.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGeneratorModeSplit.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-629">
-                  <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+                <state relative-caret-position="424">
+                  <caret line="78" selection-start-line="78" selection-end-line="78" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HtmlGeneratorTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="355">
+                  <caret line="132" selection-start-line="132" selection-end-line="132" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="expectedOutSplitLarge.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutSplitLarge.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret column="920" lean-forward="true" selection-start-column="920" selection-end-column="920" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="expectedOutUnifiedLarge.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutUnifiedLarge.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret column="806" lean-forward="true" selection-start-column="806" selection-end-column="806" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FrameworkMethod.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="160">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                  <folding>
+                    <element signature="e#728#922#0" expanded="true" />
+                    <element signature="e#921#922#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InvokeMethod.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PatchFileParserImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParserImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="186">
+                  <caret line="62" selection-start-line="62" selection-end-line="62" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TestUtilites.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/utilites/TestUtilites.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -107,32 +168,8 @@
           <file leaf-file-name="BaseGenerator.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseGenerator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PatchFileParserImpl.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParserImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ApplicationController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/controller/ApplicationController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="431">
-                  <caret line="41" selection-start-line="41" selection-end-line="41" />
+                <state relative-caret-position="586">
+                  <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -175,6 +212,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>equals</find>
+      <find>File name</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -185,8 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/model/SolverEquationWithFourDegreeImplTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/SolverEquationWithFourDegreeImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImplTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/display.jsp" />
@@ -234,8 +270,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/PatchFileParserImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/CommitLineGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParserImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/expectedOutUnifiedLarge.html" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/expectedOutSplitLarge.html" />
       </list>
     </option>
   </component>
@@ -287,10 +325,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -468,7 +506,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateLargeSplitHtml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -510,7 +548,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MainFileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateLargeSplitHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patch-visualizer" />
       <extension name="coverage">
         <pattern>
@@ -521,31 +559,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javacourse2018.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.service.MainFileReaderTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MainFileReaderTest.construct_from_main_file_path" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="patch-visualizer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javacourse2018.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.javacourse2018.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.service.MainFileReaderTest" />
-      <option name="METHOD_NAME" value="construct_from_main_file_path" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.service.HtmlGeneratorTest" />
+      <option name="METHOD_NAME" value="htmlGeneratorCanGenerateLargeSplitHtml" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -556,7 +571,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MainFileReaderTest.if_IO_error_throw_exception_and_lines_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateLargeUnifiedHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patch-visualizer" />
       <extension name="coverage">
         <pattern>
@@ -567,8 +582,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javacourse2018.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.service.MainFileReaderTest" />
-      <option name="METHOD_NAME" value="if_IO_error_throw_exception_and_lines_is_empty" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.service.HtmlGeneratorTest" />
+      <option name="METHOD_NAME" value="htmlGeneratorCanGenerateLargeUnifiedHtml" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -579,7 +594,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PatchFileParserImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="patch-visualizer" />
       <extension name="coverage">
         <pattern>
@@ -590,9 +605,32 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.javacourse2018.service" />
-      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.service.PatchFileParserImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.service.HtmlGeneratorTest" />
+      <option name="METHOD_NAME" value="htmlGeneratorCanGenerateSplitHtml" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateUnifiedHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="patch-visualizer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javacourse2018.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.javacourse2018.service" />
+      <option name="MAIN_CLASS_NAME" value="com.javacourse2018.service.HtmlGeneratorTest" />
+      <option name="METHOD_NAME" value="htmlGeneratorCanGenerateUnifiedHtml" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -711,19 +749,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.MainFileReaderTest.construct_from_main_file_path" />
-      <item itemvalue="JUnit.MainFileReaderTest.if_IO_error_throw_exception_and_lines_is_empty" />
-      <item itemvalue="JUnit.MainFileReaderTest" />
       <item itemvalue="JUnit.HtmlGeneratorTest" />
-      <item itemvalue="JUnit.PatchFileParserImplTest" />
+      <item itemvalue="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" />
+      <item itemvalue="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateLargeUnifiedHtml" />
+      <item itemvalue="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateUnifiedHtml" />
+      <item itemvalue="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateLargeSplitHtml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PatchFileParserImplTest" />
+        <item itemvalue="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateLargeSplitHtml" />
         <item itemvalue="JUnit.HtmlGeneratorTest" />
-        <item itemvalue="JUnit.MainFileReaderTest" />
-        <item itemvalue="JUnit.MainFileReaderTest.construct_from_main_file_path" />
-        <item itemvalue="JUnit.MainFileReaderTest.if_IO_error_throw_exception_and_lines_is_empty" />
+        <item itemvalue="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateUnifiedHtml" />
+        <item itemvalue="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateLargeUnifiedHtml" />
+        <item itemvalue="JUnit.HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" />
       </list>
     </recent_temporary>
   </component>
@@ -759,47 +797,47 @@
       <workItem from="1546415279184" duration="23716000" />
       <workItem from="1546504679095" duration="7658000" />
       <workItem from="1546512797231" duration="5903000" />
-      <workItem from="1546543868890" duration="2294000" />
+      <workItem from="1546543868890" duration="3466000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainFileReaderTest_construct_from_main_file_path - 2019.01.03 at 15h 16m 31s.xml">
-      <configuration name="MainFileReaderTest.construct_from_main_file_path" configurationId="JUnit" />
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateSplitHtml - 2019.01.04 at 11h 07m 14s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainFileReaderTest_construct_from_main_file_path - 2019.01.03 at 15h 16m 55s.xml">
-      <configuration name="MainFileReaderTest.construct_from_main_file_path" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainFileReaderTest_construct_from_main_file_path - 2019.01.03 at 15h 17m 49s.xml">
-      <configuration name="MainFileReaderTest.construct_from_main_file_path" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainFileReaderTest_construct_from_main_file_path - 2019.01.03 at 15h 17m 52s.xml">
-      <configuration name="MainFileReaderTest.construct_from_main_file_path" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainFileReaderTest_construct_from_main_file_path - 2019.01.03 at 15h 17m 56s.xml">
-      <configuration name="MainFileReaderTest.construct_from_main_file_path" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainFileReaderTest_construct_from_main_file_path - 2019.01.03 at 15h 18m 27s.xml">
-      <configuration name="MainFileReaderTest.construct_from_main_file_path" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainFileReaderTest - 2019.01.03 at 15h 18m 41s.xml">
-      <configuration name="MainFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainFileReaderTest - 2019.01.03 at 22h 35m 42s.xml">
-      <configuration name="MainFileReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HtmlGeneratorTest - 2019.01.03 at 22h 41m 05s.xml">
+    <history-entry file="HtmlGeneratorTest - 2019.01.04 at 11h 09m 10s.xml">
       <configuration name="HtmlGeneratorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PatchFileParserImplTest - 2019.01.03 at 22h 43m 02s.xml">
-      <configuration name="PatchFileParserImplTest" configurationId="JUnit" />
+    <history-entry file="HtmlGeneratorTest - 2019.01.04 at 11h 12m 34s.xml">
+      <configuration name="HtmlGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateSplitHtml - 2019.01.04 at 11h 16m 24s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateSplitHtml - 2019.01.04 at 11h 18m 19s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateSplitHtml - 2019.01.04 at 11h 18m 27s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateSplitHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest - 2019.01.04 at 11h 18m 32s.xml">
+      <configuration name="HtmlGeneratorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateLargeUnifiedHtml - 2019.01.04 at 11h 19m 55s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateLargeUnifiedHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest_htmlGeneratorCanGenerateLargeUnifiedHtml - 2019.01.04 at 11h 19m 59s.xml">
+      <configuration name="HtmlGeneratorTest.htmlGeneratorCanGenerateLargeUnifiedHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HtmlGeneratorTest - 2019.01.04 at 11h 21m 21s.xml">
+      <configuration name="HtmlGeneratorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123172000" />
+    <option name="totallyTimeSpent" value="124344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -812,7 +850,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.67304623" weight="0.29791668" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3157339" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3157339" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32418162" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -825,7 +863,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41077086" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41077086" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Changes" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -943,43 +981,97 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGeneratorModeSplit.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/controller/CommandLineArgumentsControllerTests.java</url>
           <line>27</line>
           <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/utilites/TestUtilites.java</url>
-          <line>8</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="107" />
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParserImpl.java</url>
-          <line>98</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="108" />
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParserImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
           <line>68</line>
           <properties />
-          <option name="timeStamp" value="109" />
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParserImpl.java</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>71</line>
           <properties />
-          <option name="timeStamp" value="110" />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="111" />
+      <option name="time" value="125" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -987,9 +1079,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa1516.17548/MainTests.java" />
-    <entry file="file://$PROJECT_DIR$/sonar-project.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qualitycontrol/model/SolverEquationWithFourDegreeImplTests.java" />
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1193,13 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -1228,16 +1310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/utilites/TestUtilites.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/PatchFileParserImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1255,21 +1327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutUnifiedLarge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/CommitLineGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1277,40 +1334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGeneratorModeSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/CommitLineGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="-226">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1327,13 +1354,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParserImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        <state relative-caret-position="141">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="150" column="22" lean-forward="true" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/utilites/TestUtilites.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGeneratorModeSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#728#922#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutUnifiedLarge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret column="806" lean-forward="true" selection-start-column="806" selection-end-column="806" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources/expectedOutSplitLarge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret column="920" lean-forward="true" selection-start-column="920" selection-end-column="920" />
         </state>
       </provider>
     </entry>
