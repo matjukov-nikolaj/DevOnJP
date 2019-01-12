@@ -24,7 +24,7 @@ public class DifferenceBlockValidator {
             Integer difLineNumber = block.getCurrCommit().getOffset();
             for (CommitLine line: block.getCommitLines()) {
                 if (line.getStatus() != CommitLineStatus.REMOVED) {
-                    compareLines(difLineNumber, line);
+                    this.compareLines(difLineNumber, line);
                     difLineNumber++;
                 }
             }

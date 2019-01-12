@@ -43,8 +43,6 @@ j
 :src/main/java/com/javacourse2018/model/CommitLineImpl.java,7\5\751857b4bd860ec6171a7117e24e87692c79b62f
 v
 Fsrc/main/java/com/javacourse2018/controller/ApplicationController.java,5\5\554a24196ab8e42d10743b55fcb044ea809ce803
-k
-;src/main/java/com/javacourse2018/service/BaseGenerator.java,9\4\94c9b803c446bbc72b07b0ca7886d7bb20b49cb5
 v
 Fsrc/main/java/com/javacourse2018/service/HtmlGeneratorModeUnified.java,3\b\3b1022161361708b4ce34f748e62d11b90344920
 t

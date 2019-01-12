@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.javacourse2018.service.MainFileReaderTest" time="0.012" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.javacourse2018.service.MainFileReaderTest" time="0.011" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire4709707082253986383\surefirebooter745752595720609229.jar C:\Users\MarioSlim\AppData\Local\Temp\surefire4709707082253986383 2019-01-04T13-31-18_268-jvmRun1 surefire2018037797366054648tmp surefire_04496926522861918410tmp"/>
+    <property name="sun.java.command" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire1596629001898997867\surefirebooter6588918353487485326.jar C:\Users\MarioSlim\AppData\Local\Temp\surefire1596629001898997867 2019-01-04T14-23-31_150-jvmRun1 surefire296632319594730483tmp surefire_08774000226780237391tmp"/>
     <property name="surefire.test.class.path" value="D:\git-comparator\patch-visualizer\target\test-classes;D:\git-comparator\patch-visualizer\target\classes;C:\Users\MarioSlim\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\MarioSlim\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MarioSlim\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\MarioSlim"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire4709707082253986383\surefirebooter745752595720609229.jar;C:\\Users\\MarioSlim\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MARIOS~1\AppData\Local\Temp\surefire1596629001898997867\surefirebooter6588918353487485326.jar;C:\\Users\\MarioSlim\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -64,6 +64,6 @@
   </properties>
   <testcase name="can_read_file" classname="com.javacourse2018.service.MainFileReaderTest" time="0"/>
   <testcase name="can_set_fields_from_out" classname="com.javacourse2018.service.MainFileReaderTest" time="0"/>
-  <testcase name="if_IO_error_throw_exception_and_lines_is_empty" classname="com.javacourse2018.service.MainFileReaderTest" time="0.008"/>
+  <testcase name="if_IO_error_throw_exception_and_lines_is_empty" classname="com.javacourse2018.service.MainFileReaderTest" time="0.007"/>
   <testcase name="construct_from_main_file_path" classname="com.javacourse2018.service.MainFileReaderTest" time="0"/>
 </testsuite>

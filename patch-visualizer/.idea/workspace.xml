@@ -65,38 +65,17 @@
     <favorites_list name="MyFirstWebProject" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.659948">
+    <splitter split-orientation="horizontal" split-proportion="0.34720415">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BaseHtmlGenerator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseHtmlGenerator.java">
+          <file leaf-file-name="MainFileReaderTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/MainFileReaderTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2482">
-                  <caret line="154" selection-start-line="154" selection-end-line="154" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ApplicationController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/controller/ApplicationController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="42" selection-end-column="45" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DifferenceBlockValidatorTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/DifferenceBlockValidatorTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -104,8 +83,8 @@
           <file leaf-file-name="DifferenceBlockValidator.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/DifferenceBlockValidator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -113,32 +92,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CommandLineArgumentsControllerImplTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/controller/CommandLineArgumentsControllerImplTest.java">
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1530">
-                  <caret line="99" column="60" lean-forward="true" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+                <state relative-caret-position="164">
+                  <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MainFileReaderTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/MainFileReaderTest.java">
+          <file leaf-file-name="CommandLineArgumentsControllerImpl.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/controller/CommandLineArgumentsControllerImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="41" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HtmlGeneratorTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="97" column="8" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="107" selection-end-column="33" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="47" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="47" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -153,7 +120,7 @@
           <file leaf-file-name="CommitLineGenerator.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/CommitLineGenerator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-226">
+                <state relative-caret-position="-261">
                   <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -241,8 +208,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/controller/ApplicationController.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/hello.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/DifferenceBlockValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/javacourse2018/service/DifferenceBlockValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/service/DifferenceBlockValidator.java" />
       </list>
     </option>
   </component>
@@ -316,11 +283,6 @@
             <path>
               <item name="patch-visualizer" type="b2602c69:ProjectViewProjectNode" />
               <item name="patch-visualizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="patch-visualizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="patch-visualizer" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="patch-visualizer" type="b2602c69:ProjectViewProjectNode" />
@@ -451,7 +413,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="D:/Hygieia/collectors/codesecurity/checkmarx" />
+    <property name="last_opened_file_path" value="D:/" />
     <property name="options.lastSelected" value="MavenSettings" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -460,7 +422,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -790,7 +752,7 @@
       <workItem from="1546415279184" duration="23716000" />
       <workItem from="1546504679095" duration="7658000" />
       <workItem from="1546512797231" duration="5903000" />
-      <workItem from="1546543868890" duration="8593000" />
+      <workItem from="1546543868890" duration="10713000" />
     </task>
     <servers />
   </component>
@@ -827,7 +789,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129471000" />
+    <option name="totallyTimeSpent" value="131591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="132" width="1936" height="1056" extended-state="6" />
@@ -843,11 +805,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.67304623" weight="0.29791668" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3157339" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36008447" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3157339" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36008447" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.19895834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.19895834" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="SonarQube" order="8" />
@@ -1078,51 +1040,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/model/CommitLineStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/PatchFileParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/controller/CommandLineArgumentsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/model/Lines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGeneratorModeUnified.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1157,16 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/controller/CommandLineArgumentsControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1213,16 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/CommitLineGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1282,13 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret column="920" selection-start-column="920" selection-end-column="920" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="997">
-          <caret line="86" column="31" lean-forward="true" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1354,16 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseHtmlGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/HtmlGeneratorModeSplit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-408">
@@ -1394,27 +1274,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/DifferenceBlockValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="97" column="8" lean-forward="true" selection-start-line="97" selection-start-column="8" selection-end-line="107" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/controller/CommandLineArgumentsControllerImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="99" column="60" lean-forward="true" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/MainFileReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1431,20 +1294,287 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/DifferenceBlockValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/BaseHtmlGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="2074">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/DifferenceBlockValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/controller/CommandLineArgumentsControllerImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="1530">
+          <caret line="99" column="60" selection-start-line="99" selection-start-column="60" selection-end-line="99" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/HtmlGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="107" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/javacourse2018/service/MainFileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">junit</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">resources</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="213.0" y="240.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/git-comparator/patch-visualizer/src/main/java/com/javacourse2018">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/com/javacourse2018</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="507.0" y="275.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/DifferenceBlockValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.javacourse2018">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.javacourse2018</OriginalElement>
+          <nodes>
+            <node x="133.0" y="0.0">com.javacourse2018.utilites</node>
+            <node x="27.25" y="80.0">com.javacourse2018.service</node>
+            <node x="0.0" y="252.0">com.javacourse2018.controller</node>
+            <node x="0.0" y="155.0">com.javacourse2018.App</node>
+            <node x="0.0" y="0.0">com.javacourse2018.model</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.javacourse2018.service" target="com.javacourse2018.model">
+              <point x="0.0" y="-15.0" />
+              <point x="28.25" y="15.0" />
+            </edge>
+            <edge source="com.javacourse2018.service" target="com.javacourse2018.utilites">
+              <point x="38.33333333333334" y="-15.0" />
+              <point x="123.08333333333334" y="55.0" />
+              <point x="190.0" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-143.5" y="106.0" />
+          <SelectedNodes>
+            <node>com.javacourse2018.model</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.javacourse2018.model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.javacourse2018.model</OriginalElement>
+          <nodes>
+            <node x="0.0" y="146.0">com.javacourse2018.model.CommitLineImpl</node>
+            <node x="14.5" y="292.0">com.javacourse2018.model.GeneralCommitLine</node>
+            <node x="551.0" y="632.0">com.javacourse2018.model.Person</node>
+            <node x="0.0" y="513.0">com.javacourse2018.model.CommitChunkPositionImpl</node>
+            <node x="239.0" y="389.0">com.javacourse2018.model.DisplayMode</node>
+            <node x="228.0" y="0.0">com.javacourse2018.model.Arguments</node>
+            <node x="12.0" y="389.0">com.javacourse2018.model.CommitChunkPosition</node>
+            <node x="594.0" y="389.0">com.javacourse2018.model.CommitInfo</node>
+            <node x="288.0" y="632.0">com.javacourse2018.model.Lines</node>
+            <node x="464.0" y="0.0">com.javacourse2018.model.CommitLineStatus</node>
+            <node x="228.0" y="168.0">com.javacourse2018.model.CommandLineArguments</node>
+            <node x="0.0" y="0.0">com.javacourse2018.model.CommitLine</node>
+            <node x="0.0" y="632.0">com.javacourse2018.model.DifferenceBlock</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.javacourse2018.model.CommitChunkPositionImpl" target="com.javacourse2018.model.CommitChunkPosition">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="com.javacourse2018.model.CommitLineImpl" target="com.javacourse2018.model.CommitLine">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="com.javacourse2018.model.CommandLineArguments" target="com.javacourse2018.model.Arguments">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="com.javacourse2018.model.GeneralCommitLine" target="com.javacourse2018.model.CommitLineImpl">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7142857142857143" x="55.30000000000001" y="375.0" />
+          <SelectedNodes>
+            <node>com.javacourse2018.model.CommitLine</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.javacourse2018.service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.javacourse2018.service</OriginalElement>
+          <nodes>
+            <node x="" y="">com.javacourse2018.service.HtmlGeneratorModeSplit</node>
+            <node x="" y="">com.javacourse2018.service.HtmlGeneratorTest</node>
+            <node x="" y="">com.javacourse2018.service.HtmlGenerator</node>
+            <node x="" y="">com.javacourse2018.service.Generator</node>
+            <node x="" y="">com.javacourse2018.service.CommitLineGenerator</node>
+            <node x="" y="">com.javacourse2018.service.BaseHtmlGenerator</node>
+            <node x="" y="">com.javacourse2018.service.MainFileReaderTest</node>
+            <node x="" y="">com.javacourse2018.service.PatchFileParserImpl</node>
+            <node x="" y="">com.javacourse2018.service.PatchFileParserImplTest</node>
+            <node x="" y="">com.javacourse2018.service.DifferenceBlockValidatorTest</node>
+            <node x="" y="">com.javacourse2018.service.PatchFileParser</node>
+            <node x="" y="">com.javacourse2018.service.DifferenceBlockValidator</node>
+            <node x="" y="">com.javacourse2018.service.MainFileReader</node>
+            <node x="" y="">com.javacourse2018.service.HtmlGeneratorModeUnified</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.3223915592028136" x="731.8109090909091" y="734.4363636363637" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/service/CommitLineGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.javacourse2018.controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.javacourse2018.controller</OriginalElement>
+          <nodes>
+            <node x="" y="">com.javacourse2018.controller.CommandLineArgumentsController</node>
+            <node x="" y="">com.javacourse2018.controller.ApplicationController</node>
+            <node x="" y="">com.javacourse2018.controller.CommandLineArgumentsControllerImpl</node>
+            <node x="" y="">com.javacourse2018.controller.CommandLineArgumentsControllerImplTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7448540706605223" x="23.482328502596545" y="313.91091509027166" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="102" column="24" lean-forward="true" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javacourse2018/controller/CommandLineArgumentsControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class DifferenceBlockValidatorTest {
 
-    TestUtilites utils = new TestUtilites();
+    private TestUtilites utils = new TestUtilites();
 
     private static final String BROKEN_MAIN_FILE = "broken_main_file.jav";
     private static final String PATCH_FOR_BROKEN_FILE = "broken_main_file.patch";
