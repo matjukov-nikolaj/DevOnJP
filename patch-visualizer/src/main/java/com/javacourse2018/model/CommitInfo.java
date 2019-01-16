@@ -36,7 +36,12 @@ public class CommitInfo {
         if (o == null || getClass() != o.getClass()) return false;
 
         CommitInfo that = (CommitInfo) o;
-        return getAuthor().getName().equals(that.getAuthor().getName())
+        Person author = that.getAuthor();
+        if (author == null) {
+            return false;
+        }
+
+        return author.equals(getAuthor())
                 && getDate().equals(that.getDate())
                 && getSubject().equals(that.getSubject())
                 && getFileName().equals(that.getFileName());

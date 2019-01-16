@@ -10,4 +10,12 @@ public class Person {
     public String getName() {
         return this.name;
     }
+
+    public boolean equals(Person person) {
+        if (person == null) {
+            return false;
+        }
+
+        return person.getName().equals(this.getName());
+    }
 }
