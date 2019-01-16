@@ -1,5 +1,6 @@
 package com.javacourse2018.service;
 
+import com.javacourse2018.model.exception.IncorrectMainFileException;
 import com.javacourse2018.utilites.TestUtilites;
 import org.junit.Test;
 
@@ -13,7 +14,7 @@ public class DifferenceBlockValidatorTest {
     private static final String PATCH_FOR_BROKEN_FILE = "broken_main_file.patch";
 
     @Test(expected = IOException.class)
-    public void test_with_incorrect_main_file() throws IOException {
+    public void test_with_incorrect_main_file() throws IncorrectMainFileException {
         PatchFileParser parser = new PatchFileParserImpl(utils.getPathToTestFile(PATCH_FOR_BROKEN_FILE));
         parser.parse();
 

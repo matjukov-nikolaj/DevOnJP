@@ -3,6 +3,7 @@ package com.javacourse2018.service;
 import com.javacourse2018.model.CommitLine;
 import com.javacourse2018.model.CommitLineStatus;
 import com.javacourse2018.model.DifferenceBlock;
+import com.javacourse2018.model.exception.IncorrectMainFileException;
 
 import java.io.IOException;
 import java.util.List;
@@ -19,7 +20,7 @@ public class DifferenceBlockValidator {
         this.mainFileLines = mainFileLines;
     }
 
-    public void check() throws IOException {
+    public void check() throws IncorrectMainFileException {
         for (DifferenceBlock block: differenceBlocks) {
             int difLineNumber = block.getCurrCommit().getOffset();
             for (CommitLine line: block.getCommitLines()) {
@@ -31,9 +32,9 @@ public class DifferenceBlockValidator {
         }
     }
 
-    private void compareLines(int difLineNumber, CommitLine line) throws IOException {
+    private void compareLines(int difLineNumber, CommitLine line) throws IncorrectMainFileException {
         if (mainFileLines.size() < difLineNumber) {
-            throw new IOException();
+            throw new IncorrectMainFileException("Out of bounds");
         }
         String mainLine = mainFileLines.get(difLineNumber);
         String difLine = line.getPayload();
@@ -42,7 +43,7 @@ public class DifferenceBlockValidator {
         }
 
         if (!mainLine.equals(difLine)) {
-            throw new IOException();
+            throw new IncorrectMainFileException("Incorrect line at: " + difLineNumber);
         }
     }
 
