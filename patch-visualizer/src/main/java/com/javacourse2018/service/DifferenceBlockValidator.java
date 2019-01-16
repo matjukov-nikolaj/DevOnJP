@@ -21,7 +21,7 @@ public class DifferenceBlockValidator {
 
     public void check() throws IOException {
         for (DifferenceBlock block: differenceBlocks) {
-            Integer difLineNumber = block.getCurrCommit().getOffset();
+            int difLineNumber = block.getCurrCommit().getOffset();
             for (CommitLine line: block.getCommitLines()) {
                 if (line.getStatus() != CommitLineStatus.REMOVED) {
                     this.compareLines(difLineNumber, line);
@@ -31,7 +31,7 @@ public class DifferenceBlockValidator {
         }
     }
 
-    private void compareLines(Integer difLineNumber, CommitLine line) throws IOException {
+    private void compareLines(int difLineNumber, CommitLine line) throws IOException {
         if (mainFileLines.size() < difLineNumber) {
             throw new IOException();
         }

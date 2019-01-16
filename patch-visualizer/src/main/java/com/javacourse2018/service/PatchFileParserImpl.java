@@ -178,7 +178,7 @@ public class PatchFileParserImpl implements PatchFileParser {
     }
 
     private void parseFunctionNameInBlockSeparator(String line, DifferenceBlock differenceBlock) {
-        Integer lastDogDog = line.lastIndexOf("@@");
+        int lastDogDog = line.lastIndexOf("@@");
         String functionName = line.substring(lastDogDog + 2, line.length());
         if (!functionName.equals("")) {
             differenceBlock.setFunctionName(functionName);

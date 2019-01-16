@@ -3,7 +3,7 @@ package com.javacourse2018.model;
 public class CommitLineImpl implements CommitLine {
     private CommitLineStatus status;
     private String payload;
-    private Integer index;
+    private int index;
 
     public CommitLineStatus getStatus() {
         return this.status;
@@ -19,10 +19,10 @@ public class CommitLineImpl implements CommitLine {
         this.payload = payload;
     }
 
-    public Integer getIndex() {
+    public int getIndex() {
         return this.index;
     }
-    public void setIndex(Integer index) {
+    public void setIndex(int index) {
         this.index = index;
     }
 }

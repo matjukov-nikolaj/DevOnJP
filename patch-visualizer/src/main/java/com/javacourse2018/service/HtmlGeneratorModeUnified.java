@@ -21,13 +21,13 @@ public class HtmlGeneratorModeUnified extends BaseHtmlGenerator<GeneralCommitLin
 
                 //prev index col
                 out.write(TD);
-                lineNumber = (commitLine.getPrevIndex() != -1) ? commitLine.getPrevIndex().toString() : " ";
+                lineNumber = (commitLine.getPrevIndex() != -1) ? String.valueOf(commitLine.getPrevIndex()) : " ";
                 out.write(lineNumber);
                 out.write(TD_CLOSE);
 
                 //curr index col
                 out.write(TD);
-                lineNumber = (commitLine.getIndex() != -1) ? commitLine.getIndex().toString() : " ";
+                lineNumber = (commitLine.getIndex() != -1) ? String.valueOf(commitLine.getIndex()) : " ";
                 out.write(lineNumber);
                 out.write(TD_CLOSE);
 

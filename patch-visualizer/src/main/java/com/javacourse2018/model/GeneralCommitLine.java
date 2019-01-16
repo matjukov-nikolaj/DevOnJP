@@ -1,13 +1,13 @@
 package com.javacourse2018.model;
 
 public class GeneralCommitLine extends CommitLineImpl {
-    private Integer prevIndex;
+    private int prevIndex;
 
-    public void setPrevIndex(Integer prevIndex) {
+    public void setPrevIndex(int prevIndex) {
         this.prevIndex = prevIndex;
     }
 
-    public Integer getPrevIndex() {
+    public int getPrevIndex() {
         return this.prevIndex;
     }
 }

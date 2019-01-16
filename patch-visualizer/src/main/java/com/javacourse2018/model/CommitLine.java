@@ -8,7 +8,7 @@ public interface CommitLine {
     String getPayload();
     void setPayload(String payload);
 
-    Integer getIndex();
-    void setIndex(Integer index);
+    int getIndex();
+    void setIndex(int index);
 
 }

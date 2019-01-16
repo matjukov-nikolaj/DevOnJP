@@ -11,7 +11,7 @@ import java.util.List;
 public class CommandLineArgumentsControllerImpl implements CommandLineArgumentsController {
     private static final Log LOG = LogFactory.getLog(CommandLineArgumentsControllerImpl.class);
 
-    private static final Integer ARGS_LENGTH = 8;
+    private static final int ARGS_LENGTH = 8;
     private static final String SEPARATOR = "--";
     private static final String FILE = SEPARATOR + "file";
     private static final String PATCH = SEPARATOR + "patch";

@@ -14,9 +14,9 @@ public class CommitLineGenerator implements Lines, Generator {
     private List<String> mainFileLines;
     private List<DifferenceBlock> differenceBlocks;
 
-    private Integer mainFileIndex;
-    private Integer prevIndex;
-    private Integer currIndex;
+    private int mainFileIndex;
+    private int prevIndex;
+    private int currIndex;
 
     public CommitLineGenerator(List<String> mainFileLines, List<DifferenceBlock> differenceBlocks) {
         this.differenceBlocks = differenceBlocks;
@@ -52,8 +52,8 @@ public class CommitLineGenerator implements Lines, Generator {
         this.copyDefaultLines(mainFileLines.size());
     }
 
-    private void copyDefaultLines(Integer offset) {
-        for (Integer i = this.mainFileIndex; i < offset; i++) {
+    private void copyDefaultLines(int offset) {
+        for (int i = this.mainFileIndex; i < offset; i++) {
             GeneralCommitLine line = new GeneralCommitLine();
             line.setPrevIndex(this.prevIndex++);
             line.setIndex(this.currIndex++);

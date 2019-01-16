@@ -67,7 +67,7 @@ public class HtmlGeneratorModeSplit extends BaseHtmlGenerator<GeneralCommitLine>
 
                 // prev index col
                 fr.write(TD);
-                String prevLineNumber = (prevLine.getPrevIndex() != -1) ? prevLine.getPrevIndex().toString() : " ";
+                String prevLineNumber = (prevLine.getPrevIndex() != -1) ? String.valueOf(prevLine.getPrevIndex()) : " ";
                 fr.write(prevLineNumber);
                 fr.write(TD_CLOSE);
 
@@ -76,7 +76,7 @@ public class HtmlGeneratorModeSplit extends BaseHtmlGenerator<GeneralCommitLine>
 
                 // cur index col
                 fr.write(TD);
-                String curLineNumber = (curLine.getIndex() != -1) ? curLine.getIndex().toString() : " ";
+                String curLineNumber = (curLine.getIndex() != -1) ? String.valueOf(curLine.getIndex()) : " ";
                 fr.write(curLineNumber);
                 fr.write(TD_CLOSE);
 
