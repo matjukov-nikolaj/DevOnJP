@@ -3,6 +3,7 @@ package com.javacourse2018.service;
 import com.javacourse2018.model.CommitInfo;
 import com.javacourse2018.model.GeneralCommitLine;
 
+import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -13,7 +14,7 @@ public class HtmlGeneratorModeUnified extends BaseHtmlGenerator<GeneralCommitLin
         super(path, lines, commitInfo);
     }
 
-    protected void printBody(FileWriter out) {
+    protected void printBody(BufferedWriter out) {
         for (GeneralCommitLine commitLine: this.lines) {
             try {
                 String lineNumber = "";

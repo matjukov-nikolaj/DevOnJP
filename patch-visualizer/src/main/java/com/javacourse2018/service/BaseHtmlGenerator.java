@@ -4,6 +4,7 @@ import com.javacourse2018.model.*;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -94,29 +95,21 @@ public abstract class BaseHtmlGenerator<T extends CommitLine> implements Lines, 
             LOG.warn("Empty lines and commit info");
             return;
         }
-        File file = new File(this.htmlPath);
+
         FileWriter out = null;
-        try {
-            out = new FileWriter(file);
-            out.write(HTML_HEADER);
-            this.printCommitInformation(out);
-            out.write(TABLE_PREFIX);
-            this.printBody(out);
-            out.write(HTML_FOOTER);
+
+        try (BufferedWriter w = new BufferedWriter(new FileWriter(new File(this.htmlPath)))) {
+            w.write(HTML_HEADER);
+            this.printCommitInformation(w);
+            w.write(TABLE_PREFIX);
+            this.printBody(w);
+            w.write(HTML_FOOTER);
         } catch (IOException e) {
             LOG.error(e.fillInStackTrace());
-        }finally{
-            try {
-                if (out != null) {
-                    out.close();
-                }
-            } catch (IOException e) {
-                LOG.error(e.fillInStackTrace());
-            }
         }
     }
 
-    protected void writePayload(FileWriter out, T line) throws IOException {
+    protected void writePayload(BufferedWriter out, T line) throws IOException {
         if (line.getStatus() == CommitLineStatus.INSERTED) {
             out.write(TD_SUCCESS);
         } else if (line.getStatus() == CommitLineStatus.REMOVED) {
@@ -133,9 +126,9 @@ public abstract class BaseHtmlGenerator<T extends CommitLine> implements Lines, 
         out.write(TD_CLOSE);
     }
 
-    protected abstract void printBody(FileWriter out);
+    protected abstract void printBody(BufferedWriter out);
 
-    private void printCommitInformation(FileWriter out) throws IOException {
+    private void printCommitInformation(BufferedWriter out) throws IOException {
         out.write(H3);
         out.write(this.commitInfo.getAuthor().getName());
         out.write(H3_CLOSE);

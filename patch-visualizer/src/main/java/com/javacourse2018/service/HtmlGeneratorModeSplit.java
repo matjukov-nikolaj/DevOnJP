@@ -6,6 +6,7 @@ import com.javacourse2018.model.GeneralCommitLine;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -58,7 +59,7 @@ public class HtmlGeneratorModeSplit extends BaseHtmlGenerator<GeneralCommitLine>
         }
     }
 
-    protected void printBody(FileWriter fr) {
+    protected void printBody(BufferedWriter fr) {
         for (int i = 0; i < this.tmpCurLines.size(); ++i) {
             try {
                 GeneralCommitLine curLine = this.tmpCurLines.get(i);
