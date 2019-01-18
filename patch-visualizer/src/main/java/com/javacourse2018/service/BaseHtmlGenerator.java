@@ -4,51 +4,18 @@ import com.javacourse2018.model.*;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class BaseHtmlGenerator<T extends CommitLine> implements Lines, Generator {
 
     protected static final Log LOG = LogFactory.getLog(BaseHtmlGenerator.class);
 
-    protected static final String HTML_HEADER = "<!doctype html>" +
-            "<html lang=\"en\">" +
-            "  <head>" +
-            "    <!-- Required meta tags -->" +
-            "    <meta charset=\"utf-8\">" +
-            "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">" +
-            "" +
-            "    <!-- Bootstrap CSS -->" +
-            "    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">" +
-            "" +
-            "    <title>Hello, world!</title>" +
-            "<style type=\"text/css\">" +
-            "code {" +
-            "white-space: pre;" +
-            "color: black" +
-            "}" +
-            "</style>" +
-            "  </head>" +
-            "    <body>";
-
-    protected static final String TABLE_PREFIX = "      <table class=\"table\">" +
-            "        <thead class=\"thead-dark\">" +
-            "        </thead>" +
-            "        <tbody>";
-
-    protected static final String HTML_FOOTER = "</tbody>" +
-            "      </table>" +
-            "" +
-            "    <!-- Optional JavaScript -->" +
-            "    <!-- jQuery first, then Popper.js, then Bootstrap JS -->" +
-            "    <script src=\"https://code.jquery.com/jquery-3.2.1.slim.min.js\" integrity=\"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN\" crossorigin=\"anonymous\"></script>" +
-            "    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>" +
-            "    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\" integrity=\"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl\" crossorigin=\"anonymous\"></script>" +
-            "  </body>" +
-            "</html>";
+    protected static final String TEMPLATE_PATH = "\\src\\main\\java\\resources\\template.txt";
 
     protected static final String TR = "<tr>";
     protected static final String TR_CLOSE = "</tr>";
@@ -99,11 +66,15 @@ public abstract class BaseHtmlGenerator<T extends CommitLine> implements Lines, 
         FileWriter out = null;
 
         try (BufferedWriter w = new BufferedWriter(new FileWriter(new File(this.htmlPath)))) {
-            w.write(HTML_HEADER);
+            List<String> htmlParts = this.readHtmlTemplate();
+            if (htmlParts.size() != 3) {
+                LOG.error("Error while reading template file");
+            }
+            w.write(htmlParts.get(0));
             this.printCommitInformation(w);
-            w.write(TABLE_PREFIX);
+            w.write(htmlParts.get(1));
             this.printBody(w);
-            w.write(HTML_FOOTER);
+            w.write(htmlParts.get(2));
         } catch (IOException e) {
             LOG.error(e.fillInStackTrace());
         }
@@ -146,5 +117,19 @@ public abstract class BaseHtmlGenerator<T extends CommitLine> implements Lines, 
         out.write(H3_CLOSE);
     }
 
+    private List<String> readHtmlTemplate() throws IOException {
+        Path currentRelativePath = Paths.get("");
+        String projectPath = currentRelativePath.toAbsolutePath().toString();
+        String filePath = projectPath + TEMPLATE_PATH;
+
+        BufferedReader br = new BufferedReader(new FileReader(filePath));
+
+        List<String> lines = new ArrayList<>();
+        String st;
+        while ((st = br.readLine()) != null) {
+            lines.add(st);
+        }
+        return lines;
+    }
 
 }
