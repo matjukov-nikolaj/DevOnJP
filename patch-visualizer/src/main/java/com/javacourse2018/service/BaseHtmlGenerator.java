@@ -15,7 +15,7 @@ public abstract class BaseHtmlGenerator<T extends CommitLine> implements Lines, 
 
     protected static final Log LOG = LogFactory.getLog(BaseHtmlGenerator.class);
 
-    protected static final String TEMPLATE_PATH = "\\src\\main\\java\\resources\\template.txt";
+    protected static final String TEMPLATE_PATH = "\\src\\main\\resources\\template.txt";
 
     protected static final String TR = "<tr>";
     protected static final String TR_CLOSE = "</tr>";
@@ -121,13 +121,16 @@ public abstract class BaseHtmlGenerator<T extends CommitLine> implements Lines, 
         Path currentRelativePath = Paths.get("");
         String projectPath = currentRelativePath.toAbsolutePath().toString();
         String filePath = projectPath + TEMPLATE_PATH;
-
-        BufferedReader br = new BufferedReader(new FileReader(filePath));
-
         List<String> lines = new ArrayList<>();
-        String st;
-        while ((st = br.readLine()) != null) {
-            lines.add(st);
+
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+
+            String st;
+            while ((st = br.readLine()) != null) {
+                lines.add(st);
+            }
+        } catch (Exception e) {
+            LOG.error(e.getMessage());
         }
         return lines;
     }

@@ -13,7 +13,7 @@ public class DifferenceBlockValidatorTest {
     private static final String BROKEN_MAIN_FILE = "broken_main_file.jav";
     private static final String PATCH_FOR_BROKEN_FILE = "broken_main_file.patch";
 
-    @Test(expected = IOException.class)
+    @Test(expected = IncorrectMainFileException.class)
     public void test_with_incorrect_main_file() throws IncorrectMainFileException {
         PatchFileParser parser = new PatchFileParserImpl(utils.getPathToTestFile(PATCH_FOR_BROKEN_FILE));
         parser.parse();

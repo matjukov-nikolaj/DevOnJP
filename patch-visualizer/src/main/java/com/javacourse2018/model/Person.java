@@ -11,11 +11,23 @@ public class Person {
         return this.name;
     }
 
-    public boolean equals(Person person) {
-        if (person == null) {
+    @Override
+    public boolean equals(Object o) {
+        if (o == null) {
             return false;
         }
-
+        if (!o.getClass().equals(Person.class)) {
+            return false;
+        }
+        Person person = (Person) o;
         return person.getName().equals(this.getName());
     }
+
+    @Override
+    public int hashCode() {
+        int result = getName().hashCode();
+        result = 31 * result + getName().hashCode();
+        return result;
+    }
+
 }
