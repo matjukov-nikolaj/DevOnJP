@@ -1,6 +1,7 @@
 package com.javacourse2018.service;
 
 import com.javacourse2018.model.*;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -177,7 +178,7 @@ public class PatchFileParserImpl implements PatchFileParser {
     }
 
     private void parseFunctionNameInBlockSeparator(String line, DifferenceBlock differenceBlock) {
-        int lastDogDog = line.lastIndexOf("@@");
+        Integer lastDogDog = line.lastIndexOf("@@");
         String functionName = line.substring(lastDogDog + 2, line.length());
         if (!functionName.equals("")) {
             differenceBlock.setFunctionName(functionName);

@@ -2,26 +2,26 @@ package com.javacourse2018.model;
 
 public class CommitChunkPositionImpl implements CommitChunkPosition {
 
-    private int offset;
-    private int height;
+    private Integer offset;
+    private Integer height;
 
     @Override
-    public int getHeight() {
+    public Integer getHeight() {
         return height;
     }
 
     @Override
-    public void setHeight(int height) {
+    public void setHeight(Integer height) {
         this.height = height;
     }
 
     @Override
-    public int getOffset() {
+    public Integer getOffset() {
         return offset;
     }
 
     @Override
-    public void setOffset(int offset) {
+    public void setOffset(Integer offset) {
         this.offset = offset;
     }
 }

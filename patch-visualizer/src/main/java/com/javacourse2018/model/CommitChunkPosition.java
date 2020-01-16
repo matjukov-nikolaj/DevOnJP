@@ -2,12 +2,12 @@ package com.javacourse2018.model;
 
 public interface CommitChunkPosition {
 
-    void setOffset(int offset);
+    void setOffset(Integer offset);
 
-    int getOffset();
+    Integer getOffset();
 
-    void setHeight(int height);
+    void setHeight(Integer height);
 
-    int getHeight();
+    Integer getHeight();
 
 }

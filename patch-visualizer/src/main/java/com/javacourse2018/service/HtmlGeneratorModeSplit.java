@@ -6,7 +6,7 @@ import com.javacourse2018.model.GeneralCommitLine;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -58,7 +58,7 @@ public class HtmlGeneratorModeSplit extends BaseHtmlGenerator<GeneralCommitLine>
         }
     }
 
-    protected void printBody(BufferedWriter fr) {
+    protected void printBody(FileWriter fr) {
         for (int i = 0; i < this.tmpCurLines.size(); ++i) {
             try {
                 GeneralCommitLine curLine = this.tmpCurLines.get(i);
@@ -67,7 +67,7 @@ public class HtmlGeneratorModeSplit extends BaseHtmlGenerator<GeneralCommitLine>
 
                 // prev index col
                 fr.write(TD);
-                String prevLineNumber = (prevLine.getPrevIndex() != -1) ? String.valueOf(prevLine.getPrevIndex()) : " ";
+                String prevLineNumber = (prevLine.getPrevIndex() != -1) ? prevLine.getPrevIndex().toString() : " ";
                 fr.write(prevLineNumber);
                 fr.write(TD_CLOSE);
 
@@ -76,7 +76,7 @@ public class HtmlGeneratorModeSplit extends BaseHtmlGenerator<GeneralCommitLine>
 
                 // cur index col
                 fr.write(TD);
-                String curLineNumber = (curLine.getIndex() != -1) ? String.valueOf(curLine.getIndex()) : " ";
+                String curLineNumber = (curLine.getIndex() != -1) ? curLine.getIndex().toString() : " ";
                 fr.write(curLineNumber);
                 fr.write(TD_CLOSE);
 
